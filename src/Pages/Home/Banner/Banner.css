@@ -1,7 +1,7 @@
 .single-hero-slide {
-    background-color: #004caa;
-    padding-top: 200px;
-    padding-bottom: 220px;
+    background-color: #2daeec;
+    padding-top: 20px;
+    padding-bottom: 22px;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -93,6 +93,11 @@
     animation-delay: 100ms;
     animation-direction: alternate;
     bottom: 15px;
+
+}
+
+.aimg1 {
+    width: 200px;
 }
 
 .animate-img .aimg2 {

@@ -2,8 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import donto from '../../../Images/about-banner1.png';
-import dontoAnimated from '../../../Images/cleaner.png';
+import about from '../../../Images/about.jpg';
 import './About.css';
 
 const About = () => {
@@ -20,27 +19,26 @@ const About = () => {
                 <Row>
                     <Col md={12} lg={6}>
                         <div className="about-left">
-                            <img src={donto} alt="donto" className="img-fluid donto" />
-                            <img src={dontoAnimated} alt="donto" className="img-fluid animated dontoAnim" />
+                            <img src={about} alt="donto" className="img-fluid donto" />
                         </div>
                     </Col>
                     <Col md={12} lg={6}>
                         <div className="about-right mt-5 mt-lg-0">
-                            <div className="about-content text-start" data-aos="zoom-in">
+                            <div className="about-content " data-aos="zoom-in">
                                 <h1>Welcome to a Family</h1>
-                                <p>Welcome to Datobbo Dental represents everything going to dentist necessary. We have upgraded your dreaded dentist appointment and transformed it into a relaxing. Consectetur adipisicing elit. Quod ea, consequuntur itaque enim et expedita, optio omnis ipsa magni, perspiciatis totam ipsum! Voluptatibus, neque at.</p>
+                                <p className="about-p">"Welcome, where cleanliness meets family dedication. As a proud family-operated business, we have been tirelessly perfecting the art of cleaning for over 5 years. Our commitment to excellence and personalized service sets us apart. We don't just clean spaces; we create environments that resonate with warmth and care. Join our extended family of satisfied clients who have experienced the difference of a cleaning service that goes beyond the ordinary. Let us bring our expertise, reliability, and a touch of familial charm to your workplace. Discover the comfort of a clean space with Proyar Maintenance Services – where family values and years of experience converge for your utmost satisfaction"</p>
                                 <a href='/page/about'>About Us</a>
                             </div>
                             <div className="fun-fact-sec" data-aos="fade-right">
                                 <div className="single-fun">
-                                    <span>500</span>
+                                    <span>100</span>
                                     <span>+</span>
-                                    <p>Happy Patients</p>
+                                    <p>Happy Clients</p>
                                 </div>
                                 <div className="single-fun sp-fun" data-aos="fade-right">
-                                    <span>88</span>
+                                    <span>30</span>
                                     <span>+</span>
-                                    <p>Qualified Doctors</p>
+                                    <p>Qualified Cleaners</p>
                                 </div>
                                 <div className="single-fun" data-aos="fade-left">
                                     <span>25</span>
@@ -50,7 +48,7 @@ const About = () => {
                                 <div className="single-fun sp-fun" data-aos="fade-left">
                                     <span>50</span>
                                     <span>+</span>
-                                    <p>Dental Awards</p>
+                                    <p>xxxxx</p>
                                 </div>
                                 <span className="line"></span>
                             </div>

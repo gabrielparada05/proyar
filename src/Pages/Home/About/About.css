@@ -40,6 +40,10 @@
     transition: all 0.4s ease 0s;
 }
 
+.about-p {
+    text-align: justify;
+}
+
 .about-content a:hover {
     color: #0056b3;
 }

@@ -6,10 +6,16 @@
     transition: all .5s ease-in-out;
     padding: 0 30px;
     margin-top: 25px;
+    height: 130px;
+}
+
+.logo {
+    width: 250px;
+    height: 160px;
 }
 
 .head-bg {
-    background-color: #004caa;
+    background-color: #2daeec;
 }
 
 .list-item {
@@ -37,7 +43,7 @@
 }
 
 .userName {
-    color: #004caa;
+    color: #2daeec;
     margin-left: 5px;
 }
 
