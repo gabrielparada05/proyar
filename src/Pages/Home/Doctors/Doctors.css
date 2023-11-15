@@ -21,6 +21,14 @@
     margin: 0 auto;
 }
 
+.rounded-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100%; 
+    height: auto; 
+    margin-top: 10px;
+}
+
 .doctors-profile::before {
     background: #fc5185;
     position: absolute;
@@ -35,8 +43,7 @@
 
 .doctors-profile img {
     position: absolute;
-    left: 54%;
-    bottom: -5px;
+    bottom: 1px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: 4;

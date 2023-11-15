@@ -1,20 +1,31 @@
+import carolina from '../Images/carolina.png';
+import gabriel from'../Images/gabriel.png';
+
+
 export const FakeDoctors = [
     {
         "id": "001",
-        "name": "Darry Milin",
-        "status": "Oral Surgeon",
-        "img": "https://i.ibb.co/pz92gsK/d1.png"
+        "name": "Maria Carolina Ojeda",
+        "status": "Chief Executive Officer",
+        "img": carolina,
     },
     {
         "id": "002",
-        "name": "Salman Ahmed",
-        "status": "Oral Surgeon",
+        "name": "Cesar Ojeda",
+        "status": "Chief Operations Officer",
         "img": "https://i.ibb.co/yRcJ55b/d2.png"
     },
     {
         "id": "003",
-        "name": "Santa Binte",
-        "status": "Oral Surgeon",
-        "img": "https://i.ibb.co/zJXZcqW/d3.png"
-    }
+        "name": "Gabriel Parada",
+        "status": "Chief Sales Officer",
+        "img": gabriel,
+    },
+    {
+        "id": "004",
+        "name": "Maria de los Angeles Ojeda",
+        "status": "Site Supervisor Manager",
+        "img": "https://i.ibb.co/yRcJ55b/d2.png",
+    },
+
 ]

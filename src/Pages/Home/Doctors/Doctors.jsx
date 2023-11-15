@@ -6,8 +6,8 @@ import React, { useEffect } from 'react';
 import { Col } from 'react-bootstrap';
 import './Doctors.css';
 
-const Doctors = (props) => {
-    const {name, status, img} = props.dentist;
+const Board = (props) => {
+    const {name, status, img} = props.team;
     useEffect(() => {
         AOS.init({
                 duration: 2000,
@@ -18,7 +18,7 @@ const Doctors = (props) => {
         <Col md={6} lg={6} xl={4} xs={12}>
             <div className="single-feature-box sigle-doctor">
                 <div className="doctors-profile" data-aos="fade-down">
-                    <img src={img} alt="" />
+                    <img src={img} alt="" className="rounded-image" />
                 </div>
                 <div className="doctors-info" data-aos="fade-left">
                     <h3 className="mb-0"><a href=".#">{name}</a></h3>
@@ -35,4 +35,4 @@ const Doctors = (props) => {
     );
 };
 
-export default Doctors;
+export default Board;

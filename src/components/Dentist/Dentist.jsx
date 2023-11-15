@@ -3,21 +3,21 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { FakeDoctors } from '../../FakeData/Dentist';
 import Doctors from '../../Pages/Home/Doctors/Doctors';
 
-const Dentist = () => {
+const Team = () => {
     return (
         <section className="doctor-wrapper">
             <Container>
                 <Row>
                     <Col sm={12}>
                         <div className="section-title">
-                            <h1 className="mb-5 mb-sm-dent">Our Dentists</h1>
+                            <h1 className="mb-5 mb-sm-dent">Our Team</h1>
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     {
-                        FakeDoctors.map(dentist => (
-                            <Doctors key={dentist.id} dentist={dentist} />
+                        FakeDoctors.map(team => (
+                            <Doctors key={team.id} team={team} />
                         ))
                     }
                 </Row>
@@ -26,4 +26,4 @@ const Dentist = () => {
     );
 };
 
-export default Dentist;
+export default Team;
