@@ -5,6 +5,8 @@ import g2 from '../../../Images/g2.jpg';
 import g3 from '../../../Images/g3.jpg';
 import g4 from '../../../Images/g4.jpg';
 import g5 from '../../../Images/g5.jpg';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 import './Gallery.css';
 
 
@@ -19,43 +21,23 @@ const Gallery = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row>
-                    <Col md={6} lg={4} sm={12}>
-                        <div className="single-item-box">
-                            <div className="thumbnail">
-                                <img src={g1} alt="" className="img-fluid" />
-                            </div>
-                        </div>
-                    </Col>
-                    <Col md={6} lg={4} sm={12}>
-                        <div className="single-item-box">
-                            <div className="thumbnail">
-                                <img src={g2} alt="" className="img-fluid" />
-                            </div>
-                        </div>
-                    </Col>
-                    <Col md={6} lg={4} sm={12}>
-                        <div className="single-item-box">
-                            <div className="thumbnail">
-                                <img src={g3} alt="" className="img-fluid" />
-                            </div>
-                        </div>
-                    </Col>
-                    <Col md={6} lg={8} sm={12}>
-                        <div className="single-item-box">
-                            <div className="thumbnail">
-                                <img src={g4} alt="" className="img-fluid" />
-                            </div>
-                        </div>
-                    </Col>
-                    <Col md={6} lg={4} sm={12}>
-                        <div className="single-item-box">
-                            <div className="thumbnail">
-                                <img src={g5} alt="" className="img-fluid" />
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
+             
+                <Carousel>
+                <div>
+                    <img src={g1} alt="" />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                <img src={g2} alt="" />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                <img src={g3} alt="" />
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
+                    
+                
             </Container>
         </section>
     );
