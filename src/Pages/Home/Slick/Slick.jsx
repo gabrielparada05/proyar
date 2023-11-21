@@ -2,11 +2,13 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Slider from 'react-slick';
 import slider1 from '../../../Images/slider1.png';
-import slider2 from '../../../Images/slider2.png';
+import slider2 from '../../../Images/slider2.jpg';
 import slider3 from '../../../Images/slider3.png';
-import slider4 from '../../../Images/slider4.png';
+import slider4 from '../../../Images/slider4.jpg';
 import slider5 from '../../../Images/slider5.png';
 import slider6 from '../../../Images/slider6.png';
+import slider7 from '../../../Images/slider7.jpg';
+import slider8 from '../../../Images/slider8.jpg';
 import './Slick.css';
 
 const settings = {
@@ -57,9 +59,16 @@ const Slick = () => {
     return (
         <section className="slider-wrapper">
             <Container>
+            <Row>
+                    <Col sm={12} className="text-center">
+                        <div className="section-title">
+                            <h1>The satisfaction of our clients is a source of pride for us</h1>
+                        </div>
+                    </Col>
+                </Row>
                 <Row>
                     <Col md={12}>
-                        <Slider {...settings}>
+                        <Slider {...settings} className='slider'>
                             <div className="single-brand-logo">
                                 <img src={slider1} alt="" />
                             </div>
@@ -77,6 +86,12 @@ const Slick = () => {
                             </div>
                             <div className="single-brand-logo">
                                 <img src={slider6} alt="" />
+                            </div>
+                            <div className="single-brand-logo">
+                                <img src={slider7} alt="" />
+                            </div>
+                            <div className="single-brand-logo">
+                                <img src={slider8} alt="" />
                             </div>
                         </Slider>
                     </Col>
