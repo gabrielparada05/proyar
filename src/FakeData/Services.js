@@ -4,6 +4,9 @@ import commercial from '../Images/commercial.png';
 import window from '../Images/wipe.png';
 import carpet from '../Images/carpet.png';
 import industrial from '../Images/industrial.png';
+import parking from '../Images/parking.png';
+import building from '../Images/building.png';
+import walkin from '../Images/walkin.png';
 
 export const FakeService = [
     {
@@ -47,5 +50,27 @@ export const FakeService = [
         "description": "After construction or renovation projects, there is often a need for thorough cleaning to remove construction debris, dust, and other residues",
         "link": "Read More",
         "img": construction,
-    }
+    },
+    {
+        "id": "007",
+        "title": "Parking Cleaning",
+        "description": "Parking cleaning is a professional service dedicated to maintaining and enhancing the cleanliness of parking facilities. Whether it's a commercial parking lot, a residential garage, or a public parking structure.",
+        "link": "Read More",
+        "img": parking,
+    },
+    {
+        "id": "008",
+        "title": "Walk-in and Dental Premises Cleaning",
+        "description": "Walk-in and dental premises cleaning is a specialized service tailored to maintain the cleanliness and hygiene of walk-in clinics and dental facilities.",
+        "link": "Read More",
+        "img": walkin,
+    },
+    {
+        "id": "009",
+        "title": "Building Cleaning",
+        "description": " Building cleaning is a comprehensive service designed to maintain the cleanliness, order, and overall hygiene of commercial and residential structures on a day-to-day basis.",
+        "link": "Read More",
+        "img": building,
+    },
+    
 ]
