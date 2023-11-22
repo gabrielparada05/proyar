@@ -9,6 +9,7 @@ import slider5 from '../../../Images/slider5.png';
 import slider6 from '../../../Images/slider6.png';
 import slider7 from '../../../Images/slider7.jpg';
 import slider8 from '../../../Images/slider8.jpg';
+import slider9 from '../../../Images/slider9.png';
 import './Slick.css';
 
 const settings = {
@@ -92,6 +93,9 @@ const Slick = () => {
                             </div>
                             <div className="single-brand-logo">
                                 <img src={slider8} alt="" />
+                            </div>
+                            <div className="single-brand-logo">
+                                <img src={slider9} alt="" />
                             </div>
                         </Slider>
                     </Col>

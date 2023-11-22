@@ -1,3 +1,40 @@
+
+.service-step-box {
+    border: 1px solid #3672bc;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    transition: .2s;
+    background: transparent;
+    text-align: center;
+   
+
+}
+
+.service-step-box:hover {
+    background: #1259b0;
+    cursor:context-menu;
+    border-color: white;
+}
+
+.service-icon {
+    margin-bottom: 10px;
+}
+
+.service-step-box h3 {
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 36px;
+}
+
+.service-step-box p {
+    color: #070707!important;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
 /* for mobile responsive */
 @media only screen and (max-width: 426px){
     .healing {
