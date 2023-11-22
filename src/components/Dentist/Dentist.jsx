@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { FakeDoctors } from '../../Data/Staff';
+import { Staff } from '../../Data/Staff';
 import Doctors from '../../Pages/Home/Doctors/Doctors';
 
 const Team = () => {
@@ -16,7 +16,7 @@ const Team = () => {
                 </Row>
                 <Row>
                     {
-                        FakeDoctors.map(team => (
+                        Staff.map(team => (
                             <Doctors key={team.id} team={team} />
                         ))
                     }

@@ -2,7 +2,7 @@ import carolina from '../Images/carolina.png';
 import gabriel from'../Images/gabriel.png';
 
 
-export const FakeDoctors = [
+export const Staff = [
     {
         "id": "001",
         "name": "Maria Carolina Ojeda",
