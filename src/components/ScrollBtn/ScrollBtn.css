@@ -3,9 +3,8 @@
    position: fixed;
    bottom: 28px;
    right: 450px; 
-   /* background-color: #25d366; */
    border: white;
-   color: #25d366;
+   color: #2daeec;
    cursor: pointer;
    z-index: 20;   
    transition: background-color 0.3s, transform 0.3s;
@@ -16,6 +15,29 @@
    background-color: none;
    transform: scale(1.1); 
  }
+
+ /* Scroll Btn */
+.scroll-up {
+  width: 45px;
+  height: 45px;
+  display: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: #2daeec;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-size: 24px;
+  z-index: 20;
+  cursor: pointer;
+}  
+.show-scroll {
+display: flex;
+}
 
  @media screen and (max-width: 640px){
    .scroll-button {

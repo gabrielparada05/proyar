@@ -27,5 +27,11 @@ export const Staff = [
         "status": "Site Supervisor Manager",
         "img": "https://i.ibb.co/yRcJ55b/d2.png",
     },
+    {
+        "id": "005",
+        "name": "Flor Kabour",
+        "status": "Site Supervisor Manager",
+        "img": "https://i.ibb.co/yRcJ55b/d2.png",
+    },
 
 ]

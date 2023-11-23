@@ -14,10 +14,9 @@ const About = () => {
           <Banner />
           <ScrollButton/>
           <Content /> 
-          <AboutService />
-          <Dentist />
-          <Achivement />
-          <LatestBlog />
+            {/* <AboutService />
+            <Dentist />
+            <Achivement /> */}
           <Appoinment />
         </>
     );

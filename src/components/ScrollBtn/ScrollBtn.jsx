@@ -1,5 +1,5 @@
 import React from 'react';
-import './ScrollBtn.css'
+import '../ScrollBtn/ScrollBtn.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
@@ -28,3 +28,4 @@ const phoneNumber = '+12892643058';
 };
 
 export default ScrollButton;
+
