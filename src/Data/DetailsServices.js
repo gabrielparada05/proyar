@@ -22,6 +22,18 @@ import confined from "../Images/confined.png";
 import chemical from "../Images/chemical.png";
 import high from "../Images/high.png";
 import heavy from "../Images/heavy.png";
+import machineCarpet from "../Images/machineCarpet.png";
+import stain from "../Images/stain.png";
+import steam from "../Images/steam.png";
+import dry from "../Images/dry.png";
+import brush from "../Images/brush.png";
+import sanitization from "../Images/sanitization.png";
+import planning from "../Images/planning.png";
+import squeegee from "../Images/squeegee.png";
+import detailing from "../Images/detailing.png";
+import screen from "../Images/screen.png";
+import ledge from "../Images/ledge.png";
+
 
 
 export const DetailServices = [
@@ -96,7 +108,7 @@ export const DetailServices = [
         },
       
     {
-        "service": "CommercialCleaning",
+        "service": "Commercial Cleaning",
             "id": "002",
           "overview": "Commercial cleaning involves a systematic and comprehensive process tailored to maintain a clean, safe, and organized environment within business and commercial spaces. Here's an overview of the typical commercial cleaning process:",
           "steps": [
@@ -166,7 +178,7 @@ export const DetailServices = [
         },
 
         {
-            "service": "IndustrialCleaning",
+            "service": "Industrial Cleaning",
             "id": "003",
             "overview": "Industrial cleaning involves specialized and comprehensive cleaning processes tailored to maintain a safe, efficient, and compliant environment within industrial facilities. Here's an overview of the typical industrial cleaning process:",
             "steps": [
@@ -231,7 +243,129 @@ export const DetailServices = [
                 "img":client,
               }
             ]
+          },
+
+          {
+            "service": "Carpet Cleaning",
+            "id": "004",
+            "overview": "Carpet cleaning involves specialized processes to maintain and enhance the cleanliness and appearance of carpets. Here's an overview of the typical carpet cleaning process:",
+            "steps": [
+              {
+                "title": "Initial Carpet Inspection",
+                "description": "Conducting a thorough inspection of the carpets to assess their condition, identify stains, and determine the appropriate cleaning methods. Creating a customized cleaning plan based on the carpet type and specific requirements.",
+                "img": assessment,
+              },
+              {
+                "title": "Pre-treatment of Stains",
+                "description": "Applying pre-treatments to specific stains and heavily soiled areas. Using specialized solutions to break down and loosen stains, making them easier to remove during the cleaning process.",
+                "img": stain
+              },
+              {
+                "title": "Hot Water Extraction (Steam Cleaning)",
+                "description": "Utilizing hot water extraction or steam cleaning methods to deep clean carpets. Injecting hot water and cleaning solutions into the carpet fibers and then extracting the loosened dirt and contaminants, leaving carpets refreshed and sanitized.",
+                "img": steam
+              },
+              {
+                "title": "Dry Carpet Cleaning",
+                "description": "Performing dry carpet cleaning for situations where minimal moisture is preferred. Using specialized cleaning compounds or powders that attract and encapsulate dirt, which is then vacuumed away.",
+                "img": machineCarpet
+              },
+              {
+                "title": "Carpet Brushing and Grooming",
+                "description": "Brushing and grooming carpet fibers to enhance the overall appearance and promote even drying. This step helps in achieving a uniform and well-maintained carpet texture.",
+                "img": brush
+              },
+              {
+                "title": "Deodorization and Sanitization",
+                "description": "Applying deodorizers and sanitizers to eliminate odors and sanitize the carpet, creating a fresh and hygienic environment. This is especially important for high-traffic areas.",
+                "img": sanitization
+              },
+              {
+                "title": "Carpet Drying",
+                "description": "Implementing efficient drying techniques to minimize downtime. Using air movers and dehumidifiers to accelerate the drying process and prevent mold or mildew growth.",
+                "img": dry
+              },
+              {
+                "title": "Quality Inspection",
+                "description": "Conducting a final inspection to ensure that the cleaning process meets quality standards. Addressing any remaining spots or concerns before completing the service.",
+                "img": qc,
+              },
+              {
+                "title": "Customer Satisfaction Survey",
+                "description": "Engaging with customers to gather feedback on the cleaning service. Continuous improvement is prioritized based on customer input, ensuring a high level of satisfaction.",
+                "img": client,
+              }
+            ]
+          },
+          {
+            "service": "Window Cleaning",
+            "id": "005",
+            "overview": "Window cleaning involves specialized techniques to achieve streak-free, crystal-clear windows. Here's an overview of the typical window cleaning process:",
+            "steps": [
+              {
+                "title": "Initial Assessment and Safety Planning",
+                "description": "Conducting an initial assessment of the windows, identifying any specific challenges or safety considerations. Developing a safety plan to address potential hazards during the cleaning process, especially for high-rise or difficult-to-reach windows.",
+                "img": assessment,
+              },
+              {
+                "title": "Dust and Debris Removal",
+                "description": "Removing dust, cobwebs, and loose debris from window sills, frames, and surrounding areas. Ensuring a clean surface before initiating the window cleaning process.",
+                "img": dusting,
+              },
+              {
+                "title": "Window Frame Cleaning",
+                "description": "Cleaning window frames and tracks to remove accumulated dirt and grime. Ensuring smooth operation and preventing damage to window mechanisms.",
+                "img": touching,
+              },
+              {
+                "title": "Glass Surface Pre-Treatment",
+                "description": "Applying a specialized cleaning solution or pre-treatment to the glass surface. This helps to break down and loosen stubborn stains, making them easier to remove during the cleaning process.",
+                "img": window,
+              },
+              {
+                "title": "Squeegee Cleaning",
+                "description": "Using squeegees to clean and wipe the glass surfaces thoroughly. This technique ensures a streak-free finish and removes any remaining cleaning solution or water droplets.",
+                "img": squeegee,
+              },
+              {
+                "title": "Detailing and Edging",
+                "description": "Detailing the edges and corners of the windows for a polished finish. Ensuring that every part of the window, including hard-to-reach areas, is cleaned to perfection.",
+                "img": detailing,
+              },
+              {
+                "title": "High-Rise Window Cleaning (If Applicable)",
+                "description": "Implementing specialized techniques and equipment for cleaning windows in high-rise buildings. Adhering to strict safety protocols and utilizing tools such as water-fed poles or lift systems.",
+                "img": high,
+              },
+              {
+                "title": "Screen Cleaning",
+                "description": "Cleaning window screens to remove dust and debris. Ensuring that screens are free from obstructions for optimal visibility and air circulation.",
+                "img": screen
+              },
+              {
+                "title": "Window Sill and Ledge Cleaning",
+                "description": "Thoroughly cleaning window sills and ledges to remove accumulated dirt, insects, and other debris. Enhancing the overall cleanliness and appearance of the windows.",
+                "img": ledge,
+              },
+              {
+                "title": "Final Inspection and Touch-Ups",
+                "description": "Conducting a final inspection to ensure the cleanliness and clarity of the windows. Addressing any remaining spots or streaks for a flawless finish.",
+                "img": qc,
+              },
+              {
+                "title": "Regular Maintenance Plans",
+                "description": "Offering regular maintenance plans to keep windows consistently clean and well-maintained. Scheduling periodic cleaning services to prevent the build-up of dirt and extend the lifespan of windows.",
+                "img": planning,
+              },
+              {
+                "title": "Customer Satisfaction Survey",
+                "description": "Engaging with customers to gather feedback on the cleaning service. Continuous improvement is prioritized based on customer input, ensuring a high level of satisfaction.",
+                "img": client,
+              }
+            ]
           }
+          
+          
           
 
 
