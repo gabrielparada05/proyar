@@ -1,5 +1,7 @@
 
 import { Col, Container, Row } from 'react-bootstrap';
+import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import g1 from '../../../Images/g1.jpg';
 import g2 from '../../../Images/g2.jpg';
 import g3 from '../../../Images/g3.jpg';

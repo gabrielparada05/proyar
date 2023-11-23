@@ -1,39 +1,83 @@
-import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Slider from 'react-slick';
 import './Safety.css';
+import '../../Home/Slick/Slick.css';
+import ppe from '../../../Images/ppe.png';
+import bio from '../../../Images/bio.png';
+import whmis from '../../../Images/WHMIS.png';
+import wsib from '../../../Images/wsib.png';
+
+
+const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "60px",
+    slidesToShow: 3,
+    speed: 700,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+            breakpoint: 280,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+        }
+      ]
+};
+
 
 const Safety = () => {
     return (
         <section className="about-content-sec">
             <Container>
                 <Row>
-                    <Col md={12} lg={8} lg={{ order: 2 }} className="text-center">
-                        <div className="section-title">
-                            <h1>Safety First</h1>
-                        </div>
-                        <p className="w-50 m-auto content-inner">Since 1998, Donto Dentistry has been proud to combine modern techniques and high-tech equipment. Dr. John Dae, Micha and his team deliver a personalized and comfortable dental care experience unlike any other Mason dentist.</p>
+                <Col md={12}>
+                        <Slider {...settings} className='slider'>
+                            <div className="single-brand-logo">
+                                <img src={wsib} alt="" />
+                            </div>
+                            <div className="single-brand-logo">
+                                <img src={bio} alt="" />
+                            </div>
+                            <div className="single-brand-logo">
+                                <img src={ppe} alt="" />
+                            </div>
+                            <div className="single-brand-logo">
+                                <img src={whmis} alt="" />
+                            </div>
+                
+                        </Slider>
                     </Col>
                 </Row>
-                <Row>
-                    <Col md={6} lg={6}>
-                        <div className="vedio-item">
-                            <div className="vedio-bg-img">
-                                <a href="https://youtu.be/IVqKLxp6R4U"><FontAwesomeIcon icon={faPlayCircle} className="vedio-play-btn" /></a>
-                            </div>
-                            <h5>The Importance Of Complete Dentistry for your Health</h5>
-                        </div>
-                    </Col>
-                    <Col md={6} lg={6}>
-                        <div className="vedio-item">
-                            <div className="vedio-bg-img img2">
-                                <a href="https://youtu.be/0s35QCFg7p0"><FontAwesomeIcon icon={faPlayCircle} className="vedio-play-btn" /></a>
-                            </div>
-                            <h5>Safety First with CT Scans!</h5>
-                        </div>
-                    </Col>
-                </Row>
+                
             </Container>
         </section>
     );

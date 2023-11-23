@@ -33,6 +33,16 @@ import squeegee from "../Images/squeegee.png";
 import detailing from "../Images/detailing.png";
 import screen from "../Images/screen.png";
 import ledge from "../Images/ledge.png";
+import building from "../Images/building.png";
+import debris from "../Images/debris.png";
+import light from "../Images/light.png";
+import reception from "../Images/reception.png";
+import patient from "../Images/patient.png";
+import reading from "../Images/reading.png";
+import painting from "../Images/painting.png";
+import elevator from "../Images/elevator.png";
+
+
 
 
 
@@ -315,12 +325,12 @@ export const DetailServices = [
               {
                 "title": "Window Frame Cleaning",
                 "description": "Cleaning window frames and tracks to remove accumulated dirt and grime. Ensuring smooth operation and preventing damage to window mechanisms.",
-                "img": touching,
+                "img": window,
               },
               {
                 "title": "Glass Surface Pre-Treatment",
                 "description": "Applying a specialized cleaning solution or pre-treatment to the glass surface. This helps to break down and loosen stubborn stains, making them easier to remove during the cleaning process.",
-                "img": window,
+                "img": screen,
               },
               {
                 "title": "Squeegee Cleaning",
@@ -340,7 +350,7 @@ export const DetailServices = [
               {
                 "title": "Screen Cleaning",
                 "description": "Cleaning window screens to remove dust and debris. Ensuring that screens are free from obstructions for optimal visibility and air circulation.",
-                "img": screen
+                "img": touching,
               },
               {
                 "title": "Window Sill and Ledge Cleaning",
@@ -353,17 +363,253 @@ export const DetailServices = [
                 "img": qc,
               },
               {
-                "title": "Regular Maintenance Plans",
-                "description": "Offering regular maintenance plans to keep windows consistently clean and well-maintained. Scheduling periodic cleaning services to prevent the build-up of dirt and extend the lifespan of windows.",
-                "img": planning,
-              },
-              {
                 "title": "Customer Satisfaction Survey",
                 "description": "Engaging with customers to gather feedback on the cleaning service. Continuous improvement is prioritized based on customer input, ensuring a high level of satisfaction.",
                 "img": client,
               }
             ]
+          },
+          {
+            "service": "Post-Construction Cleaning",
+            "id": "006",
+            "overview": "Post-construction cleaning involves thorough cleaning and preparation of a construction site after the completion of building or renovation projects. Here's an overview of the typical post-construction cleaning process:",
+            "steps": [
+              {
+                "title": "Initial Site Inspection",
+                "description": "Conducting a comprehensive inspection of the construction site to assess the scope of cleaning required. Identifying and addressing areas with accumulated debris, dust, and construction residue.",
+                "img": assessment,
+              },
+              {
+                "title": "Debris and Construction Waste Removal",
+                "description": "Removing large debris, construction materials, and waste from the site. Utilizing proper disposal methods and ensuring compliance with environmental regulations.",
+                "img": building,
+              },
+              {
+                "title": "Dust and Surface Cleaning",
+                "description": "Thoroughly cleaning surfaces to remove dust, dirt, and construction residue. Using specialized equipment and cleaning agents to achieve a polished and dust-free environment.",
+                "img": dusting,
+              },
+              {
+                "title": "Floor Cleaning and Polishing",
+                "description": "Cleaning and polishing all types of flooring, including hardwood, tile, or carpet, to remove construction dust and achieve a clean and finished appearance.",
+                "img": floor,
+              },
+              {
+                "title": "Window and Glass Cleaning",
+                "description": "Cleaning windows, glass surfaces, and mirrors to remove construction smudges and achieve crystal-clear clarity. Using appropriate cleaning solutions for different types of glass.",
+                "img": window,
+              },
+              {
+                "title": "Interior and Exterior Surface Wiping",
+                "description": "Wiping down interior and exterior surfaces, including countertops, cabinets, and fixtures, to remove dust and residue. Achieving a clean and sanitized living or working space.",
+                "img": touching,
+              },
+              {
+                "title": "Deep Cleaning of Fixtures and Appliances",
+                "description": "Deep cleaning and sanitizing fixtures, appliances, and other built-in elements. Ensuring that all components are free from construction dust and ready for use.",
+                "img": kitchen,
+              },
+              {
+                "title": "Air Duct Cleaning",
+                "description": "Cleaning and sanitizing air ducts to remove construction-related dust and contaminants. Improving indoor air quality and ensuring the efficient operation of HVAC systems.",
+                "img": duct,
+              },
+              {
+                "title": "Final Touch-Ups and Inspections",
+                "description": "Conducting final touch-ups and inspections to ensure that every area has been thoroughly cleaned. Addressing any remaining issues or concerns before completion.",
+                "img": qc,
+              },
+              {
+                "title": "Waste Disposal and Recycling",
+                "description": "Properly disposing of waste and recycling materials generated during the post-construction cleaning. Following environmentally responsible practices in waste management.",
+                "img": trash,
+              },
+              {
+                "title": "Customer Satisfaction Survey",
+                "description": "Engaging with customers to gather feedback on the post-construction cleaning service. Continuous improvement is prioritized based on customer input, ensuring a high level of satisfaction.",
+                "img": client,
+              }
+            ]
+          },
+          {
+            "service": "Parking Cleaning",
+            "id": "007",
+            "overview": "Parking cleaning involves the thorough cleaning and maintenance of parking facilities to ensure a clean, safe, and well-maintained environment. Here's an overview of the typical parking cleaning process:",
+            "steps": [
+              {
+                "title": "Initial Assessment and Planning",
+                "description": "Conducting an initial assessment of the parking facility to identify areas requiring cleaning and maintenance. Developing a customized cleaning plan based on the size and specific requirements of the parking space.",
+                "img": assessment,
+              },
+              {
+                "title": "Litter and Debris Removal",
+                "description": "Removing litter, leaves, and debris from parking spaces, walkways, and common areas. Utilizing equipment such as blowers and sweepers for efficient debris removal.",
+                "img": debris,
+              },
+              {
+                "title": "Sweeping and Power Washing",
+                "description": "Performing sweeping and power washing to clean parking surfaces thoroughly. Addressing stains, oil spills, and other contaminants to maintain a neat and well-presented appearance.",
+                "img": floor,
+              },
+              {
+                "title": "Oil Stain and Spill Cleanup",
+                "description": "Targeting and cleaning oil stains and spills in parking spaces. Using specialized cleaning agents to break down oil and grease, enhancing the overall cleanliness and safety of the parking area.",
+                "img":stain,
+              },
+              {
+                "title": "Pressure Washing of Structures",
+                "description": "Utilizing pressure washing techniques for the cleaning of parking structures, ramps, and walls. Removing dirt, mold, and other accumulated contaminants to maintain a clean and safe environment.",
+                "img": pressure,
+              },
+              {
+                "title": "Trash Receptacle Cleaning",
+                "description": "Emptying and cleaning trash receptacles throughout the parking area. Maintaining cleanliness and preventing unpleasant odors.",
+                "img": trash,
+              },
+              {
+                "title": "Graffiti Removal",
+                "description": "Addressing and removing graffiti from parking structures and surfaces. Using appropriate cleaning methods to restore the appearance of the affected areas.",
+                "img": touching,
+              },
+              {
+                "title": "Lighting Fixture Cleaning",
+                "description": "Cleaning and inspecting lighting fixtures in the parking facility. Ensuring proper illumination for safety and security.",
+                "img": light,
+              },
+              {
+                "title": "Customer Satisfaction Survey",
+                "description": "Engaging with customers to gather feedback on the parking cleaning service. Continuous improvement is prioritized based on customer input, ensuring a high level of satisfaction.",
+                "img": client,
+              }
+            ]
+          },
+          {
+            "service": "Walk-in and Dental Premises Cleaning",
+            "id": "008",
+            "overview": "Cleaning for walk-in and dental premises involves maintaining a clean, sanitary, and welcoming environment for clients and patients. Here's an overview of the typical cleaning process for such premises:",
+            "steps": [
+              {
+                "title": "Initial Walk-through and Assessment",
+                "description": "Conducting an initial walk-through of the premises to assess the cleaning requirements. Identifying high-traffic areas, patient rooms, waiting areas, and other spaces that require specific attention.",
+                "img": assessment,
+              },
+              {
+                "title": "Reception and Waiting Area Cleaning",
+                "description": "Cleaning and disinfecting reception and waiting areas. Wiping down surfaces, sanitizing furniture, and ensuring a clean and comfortable environment for clients.",
+                "img": reception, 
+              },
+              {
+                "title": "Patient Room Sanitization",
+                "description": "Thoroughly sanitizing patient rooms, examination areas, and treatment spaces. Using medical-grade disinfectants to maintain a sterile environment and prevent the spread of infections.",
+                "img": patient,
+              },
+              {
+                "title": "Floor Cleaning and Disinfection",
+                "description": "Cleaning and disinfecting floors in all areas, including waiting rooms, corridors, and treatment areas. Using appropriate cleaning agents for different flooring types.",
+                "img": floor,
+              },
+              {
+                "title": "Surface and Fixture Disinfection",
+                "description": "Disinfecting surfaces, countertops, and fixtures in common areas and treatment rooms. Paying special attention to frequently touched surfaces to prevent the spread of germs.",
+                "img": sanitization,
+              },
+              {
+                "title": "Restroom Sanitization",
+                "description": "Thoroughly cleaning and sanitizing restrooms to maintain a hygienic environment. Regularly restocking essential supplies such as soap, paper towels, and toilet paper.",
+                "img": toilet,
+              },
+              {
+                "title": "Waiting Room Reading Material Management",
+                "description": "Regularly organizing and cleaning reading materials in waiting areas. Ensuring a neat and organized space for clients while adhering to hygiene standards.",
+                "img": reading, 
+              },
+              {
+                "title": "Window and Glass Cleaning",
+                "description": "Cleaning windows, glass surfaces, and mirrors to maintain a clear and clean appearance. Providing a bright and welcoming atmosphere for clients.",
+                "img": screen,
+              },
+            
+              {
+                "title": "Customer Satisfaction Survey",
+                "description": "Engaging with clients to gather feedback on the cleaning service. Continuous improvement is prioritized based on client input, ensuring a high level of satisfaction.",
+                "img":client,
+              }
+            ]
+          },
+          {
+            "service": "Building Cleaning and Maintenance",
+            "id": "009",
+            "overview": "Building cleaning and maintenance involve comprehensive services to keep commercial and residential buildings clean, well-maintained, and in optimal condition. Here's an overview of the typical cleaning and maintenance process:",
+            "steps": [
+              {
+                "title": "Initial Building Assessment",
+                "description": "Conducting an initial assessment of the building to identify cleaning and maintenance requirements. Evaluating the condition of surfaces, infrastructure, and common areas.",
+                "img": assessment,
+              },
+              {
+                "title": "Exterior Surface Cleaning",
+                "description": "Cleaning and power washing exterior surfaces, including walls, windows, and facades. Removing dirt, grime, and pollutants to enhance the building's curb appeal.",
+                "img": pressure,
+              },
+              {
+                "title": "Window Cleaning",
+                "description": "Thoroughly cleaning windows, glass surfaces, and frames. Improving natural light and maintaining a clear view from inside and outside the building.",
+                "img": screen,
+              },
+              {
+                "title": "Floor Care and Maintenance",
+                "description": "Cleaning and maintaining different types of flooring, including carpet, tile, and hardwood. Performing tasks such as vacuuming, mopping, and polishing to keep floors in top condition.",
+                "img": floor,
+              },
+              {
+                "title": "Common Area Cleaning",
+                "description": "Cleaning and maintaining common areas such as lobbies, hallways, and elevators. Creating a welcoming and clean environment for building occupants and visitors.",
+                "img": machineCarpet,
+              },
+              {
+                "title": "Restroom Sanitization",
+                "description": "Thoroughly cleaning and sanitizing restrooms to maintain a hygienic environment. Regularly restocking essential supplies such as soap, paper towels, and toilet paper.",
+                "img": toilet,
+              },
+              {
+                "title": "Trash Removal and Recycling",
+                "description": "Regularly emptying and managing trash and recycling bins throughout the building. Promoting waste reduction and environmentally friendly practices.",
+                "img": waste,
+              },
+              {
+                "title": "Elevator Cleaning",
+                "description": "Cleaning and maintaining elevators to ensure safe and efficient operation. Addressing any issues with cleanliness",
+                "img": elevator, 
+              },
+              {
+                "title": "Security and Safety Checks",
+                "description": "Conducting regular security and safety checks in the building. Inspecting lighting, emergency exits, and security features to ensure a safe environment.",
+                "img": planning,
+              },
+              {
+                "title": "Painting and Touch-Ups",
+                "description": "Performing painting and touch-up tasks as needed to maintain a fresh and well-maintained appearance. Addressing any visible signs of wear or damage.",
+                "img": painting,
+              },
+              {
+                "title": "Emergency Response and Cleanup",
+                "description": "Providing rapid response and cleanup services for building emergencies, such as spills, leaks, or other incidents. Mitigating potential risks promptly.",
+                "img": emergency,
+              },
+              {
+                "title": "Customer Satisfaction Survey",
+                "description": "Engaging with building occupants to gather feedback on the cleaning and maintenance services. Continuous improvement is prioritized based on occupant input, ensuring a high level of satisfaction.",
+                "img": client,
+              }
+            ]
           }
+          
+          
+          
+          
+
+          
+        
           
           
           

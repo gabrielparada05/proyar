@@ -39,3 +39,7 @@
 .img2 {
     background-image: url("https://donto-react.netlify.app/static/media/video-bg2.1415f1d3.jpg") !important;
 }
+
+.logo-safety {
+    margin: 20px;
+}
