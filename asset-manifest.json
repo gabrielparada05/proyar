@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d4f043c.css",
-    "main.js": "/static/js/main.73acc8f0.js",
+    "main.css": "/static/css/main.9ccb84e1.css",
+    "main.js": "/static/js/main.d603ee3d.js",
     "static/js/787.92238753.chunk.js": "/static/js/787.92238753.chunk.js",
     "static/media/bio.png": "/static/media/bio.dbee6bb5e4a7b10b445d.png",
     "static/media/home_img.png": "/static/media/home_img.b9e0f4cc62640a4c1406.png",
@@ -25,7 +25,6 @@
     "static/media/hero-main-bg.png": "/static/media/hero-main-bg.b54b1572176a37fe55fd.png",
     "static/media/404.png": "/static/media/404.e45a4490ce65c5b21c9e.png",
     "static/media/logo_proyar.png": "/static/media/logo_proyar.918a0b11e42b18d475c2.png",
-    "static/media/experienceddentist.png": "/static/media/experienceddentist.bc74913bdb961892358b.png",
     "static/media/josefin-sans-all-400-normal.woff": "/static/media/josefin-sans-all-400-normal.e89cb50b139916039cdc.woff",
     "static/media/doctorfinding.c2532ac3.png": "/static/media/doctorfinding.c2532ac3.3e317a80d2565d9afd8a.png",
     "static/media/doctor-nurse.png": "/static/media/doctor-nurse.25c2728a8c3138632ffe.png",
@@ -39,12 +38,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.1d4f043c.css.map": "/static/css/main.1d4f043c.css.map",
-    "main.73acc8f0.js.map": "/static/js/main.73acc8f0.js.map",
+    "main.9ccb84e1.css.map": "/static/css/main.9ccb84e1.css.map",
+    "main.d603ee3d.js.map": "/static/js/main.d603ee3d.js.map",
     "787.92238753.chunk.js.map": "/static/js/787.92238753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d4f043c.css",
-    "static/js/main.73acc8f0.js"
+    "static/css/main.9ccb84e1.css",
+    "static/js/main.d603ee3d.js"
   ]
 }
