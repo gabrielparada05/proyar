@@ -63,7 +63,7 @@ const Detail = () => {
    <button className="btn btn-primary m-4" onClick={() => scrollToService('commercial-cleaning')}><FontAwesomeIcon icon={faHouseLaptop} />Go to Commercial Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('industrial-cleaning')}><FontAwesomeIcon icon={faIndustry} /> Go to Industrial Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('window-cleaning')}><FontAwesomeIcon icon={faPersonThroughWindow} /> Go to Window Cleaning</button>
-   <button className="btn btn-primary m-4" onClick={() => scrollToService('pofaPersonDiggingst-construction-cleaning')}><FontAwesomeIcon icon={faPersonDigging} />Go to Post-Construction Cleaning</button>
+   <button className="btn btn-primary m-4" onClick={() => scrollToService('post-construction-cleaning')}><FontAwesomeIcon icon={faPersonDigging} />Go to Post-Construction Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('parking-cleaning')}><FontAwesomeIcon icon={faSquareParking} /> Go to Parking Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('walk-in-and-dental-premises-cleaning')}><FontAwesomeIcon icon={faHouseChimneyMedical} /> Go to Walk-in Clinic and Dental Premises Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('building-cleaning-and-maintenance')}><FontAwesomeIcon icon={faBuilding} /> Go to Building Cleaning</button>

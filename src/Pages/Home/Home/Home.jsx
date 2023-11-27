@@ -1,5 +1,5 @@
 import React from 'react';
-import Dentist from '../../../components/Dentist/Dentist';
+import Team from '../../../components/Team/Team';
 import Feature from '../../../components/Feature/Feature';
 import LatestBlog from '../../../components/LatestBlog/LatestBlog';
 import Service from '../../../components/Service/Service';
@@ -19,7 +19,7 @@ const Home = () => {
            <Feature />
            <About />
            <Service />
-           <Dentist />
+           <Team />
            <Appoinment />
            <Gallery />
            {/* <Testimonial />
