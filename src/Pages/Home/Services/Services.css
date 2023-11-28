@@ -1,6 +1,6 @@
 .service-wrapper {
     background: #2daeec !important;
-    padding: 120px 0;
+    padding: 60px 0;
     color: #fff;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .single-service-box p {
-    color: #d7d3d3!important;
+    color: #d7d3d3;
     font-family: 'Roboto Slab', serif;
 }
 

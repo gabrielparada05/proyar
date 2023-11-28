@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import "./Content.css";
 
+import "./Content.css";
 
 const aboutText = `
   Welcome to Proyar Maintenance Services, where our commitment to
@@ -32,9 +32,7 @@ const valuesList = [
     content:
       "Your satisfaction is our driving force. We tailor our services to meet your unique needs, providing a seamless and enjoyable experience.",
   },
-
 ];
-
 
 const promiseText = `
   At Proyar Maintenance Services, we promise more than just
@@ -55,28 +53,41 @@ const promiseText = `
 const Content = () => {
   return (
     <section className="about-content-sec">
-      <Container>
+      <Container className="mb-5">
         <Row>
           <Col md={12} lg={{ order: 2 }}>
             <div className="section-title text-center">
               <h1>Our Practice</h1>
             </div>
-            <p className="m-auto content-inner fs-4 text-center">{aboutText}</p>
+            <p className="fs-3 text-center">{aboutText}</p>
 
-            <h2 className="text-center p-5">Our Values:</h2>
-            <ul>
-              {valuesList.map((value, index) => (
-                <li key={index}>
-                  <span className="fw-bold">{value.title}</span> {value.content}
-                </li>
-              ))}
-            </ul>
-
-            <h3 className="text-center p-5">Our Promise:</h3>
-            <p>{promiseText}</p>
+            <h3 className="text-center fs-2 p-5">Our Promise:</h3>
+            <p className="fs-5 text-justify">{promiseText}</p>
           </Col>
         </Row>
       </Container>
+
+      
+      <div className="service-wrapper fs-5">
+      <h2 className="text-center text-white fs-2">Our Values:</h2>
+        <Container>
+          <Row className="justify-content-center">
+          {valuesList.map((value, index) => (
+          
+               <Col key={index} md={6} lg={6} xl={4} xs={12}>
+              <div className="single-service-box p-3">
+                <div className="service-icon">
+                  {/* <img src={img} alt="" /> */}
+                </div>
+                <h3 className="fw-bolder text-decoration-underline">{value.title}</h3>
+                <p className="text-white">{value.content}</p>
+              </div>
+              </Col>
+          
+          ))}
+          </Row>
+        </Container>
+      </div>
     </section>
   );
 };
