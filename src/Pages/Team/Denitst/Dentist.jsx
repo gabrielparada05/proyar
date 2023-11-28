@@ -1,5 +1,5 @@
 import React from 'react';
-import Appoinment from '../../../Pages/Home/Appoinment/Appoinment';
+import Appointment from '../../../Pages/Home/Appoinment/Appoinment';
 import Banner from '../Bannner/Banner';
 import Details from '../Details/Details';
 
@@ -8,7 +8,7 @@ const Dentist = () => {
         <>
             <Banner />
             <Details />
-            <Appoinment />
+            <Appointment />
         </>
     );
 };

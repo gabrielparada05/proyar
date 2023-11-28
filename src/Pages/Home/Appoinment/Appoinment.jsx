@@ -19,7 +19,7 @@ const validate = (values) => {
   }
   
 
-const Appoinment = () => {
+const Appointment = () => {
 
     const [showModal, setShowModal] = useState(false);
     
@@ -81,52 +81,103 @@ const Appoinment = () => {
 
    
     return (
-        <section className="appoinment-wrapper">
-            <Container>
-                <Row>
-                    <Col sm={12} md={12}>
-                        <div className="section-title">
-                            <h1 className="mt-5 text-center">Request a Free Estimation</h1>
-                        </div>
-                        <div className="appoinment-form">
-                            <form action="#" className="row" onSubmit={handleSubmit}>
-                                <Col md={6} lg={6}>
-                                <label htmlFor="name" className="leading-7 text-lg text-gray-800"> Name </label>
-                                <input type="text" id="name" name="name" minLength={2} maxLength={20} className="w-full bg-sky-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-slate-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out hover:brightness-50" required/>
-                                </Col>
-                                <Col md={6} lg={6}>
-                                <label htmlFor="email" className="leading-7 text-lg text-gray-800"> Email </label>
-                                <input type="email" id="email" name="email" className="w-full bg-sky-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-slate-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out hover:brightness-50"
-                                 onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.email} />
-                                {formik.touched.email && formik.errors.email && (
-                                <span>{formik.errors.email}</span>)}
-                                </Col>
-                                <Col md={6} lg={6}>
-                                <label htmlFor="phone" className="leading-7 text-lg text-gray-800"> Phone Number </label>
-                                <input type="text" id="phone" name="phone" minLength={2} maxLength={20} className="w-full bg-sky-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-slate-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out hover:brightness-50" required/>
-                                </Col>
-                                <Col md={12} lg={12}>
-                                <label htmlFor="message" className="leading-7 text-lg text-gray-800" name="message"> Message </label>
-                                <textarea id="message" name="message" minLength={5} maxLength={100} className="w-full bg-sky-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-slate-600 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out hover:brightness-50" required/>
-                                </Col>
-                                {(!formik.dirty || !formik.isValid) && ( <div className="text-red-500 text-center">Please fill out all the fields</div>)}
-                                <button type="submit"className={`theme-btn btn-fill form-btn mt-5`} disabled={!formik.dirty || !formik.isValid} title="Please fill out all the fields"> Submit </button>
-
-                            </form>
-                        </div>
-                    </Col>
-                </Row>
-                {showModal && (
-        <div className="modal1" >
-          <div className="modal2">
-            <h3>Email Sent Successfully!</h3>
-            <button  onClick={closeModal}>Close</button>
+      <section className="appoinment-wrapper">
+      <Container>
+        <Row>
+          <Col sm={12} md={12}>
+            <div className="section-title">
+              <h1 className="text-center pb-5">Request a Free Estimation</h1>
+            </div>
+            <div className="appoinment-form">
+              <form action="#" className="row" onSubmit={handleSubmit}>
+                <Col md={6} lg={6}>
+                  <div className="mb-3">
+                    <label htmlFor="name" className="form-label">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      minLength={2}
+                      maxLength={20}
+                      className="form-control bg-sky-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-slate-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out hover:brightness-50"
+                      required
+                    />
+                  </div>
+                </Col>
+                <Col md={6} lg={6}>
+                  <div className="mb-3">
+                    <label htmlFor="email" className="form-label">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      className="form-control bg-sky-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-slate-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out hover:brightness-50"
+                      onChange={formik.handleChange}
+                      onBlur={formik.handleBlur}
+                      value={formik.values.email}
+                      required
+                    />
+                    {formik.touched.email && formik.errors.email && (
+                      <div className="text-danger">{formik.errors.email}</div>
+                    )}
+                  </div>
+                </Col>
+                <Col md={6} lg={6}>
+                  <div className="mb-3">
+                    <label htmlFor="phone" className="form-label">Phone Number</label>
+                    <input
+                      type="text"
+                      id="phone"
+                      name="phone"
+                      minLength={2}
+                      maxLength={20}
+                      className="form-control bg-sky-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-slate-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out hover:brightness-50"
+                      required
+                    />
+                  </div>
+                </Col>
+                <Col md={12} lg={12} className="mt-3">
+                  <div className="mb-3">
+                    <label htmlFor="message" className="form-label">Message</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      minLength={5}
+                      maxLength={1000}
+                      className="form-control h-50 bg-sky-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-slate-600 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out hover:brightness-50"
+                      required
+                    />
+                  </div>
+                </Col>
+                {(!formik.dirty || !formik.isValid) && (
+                  <div className="text-danger text-center">Please fill out all the fields</div>
+                )}
+                <Col md={12} lg={12} className="text-center mt-3">
+                  <button
+                    type="submit"
+                    className={`btn btn-primary theme-btn btn-fill form-btn`}
+                    disabled={!formik.dirty || !formik.isValid}
+                    title="Please fill out all the fields"
+                  >
+                    Submit
+                  </button>
+                </Col>
+              </form>
+            </div>
+          </Col>
+        </Row>
+        {showModal && (
+          <div className="modal1">
+            <div className="modal2">
+              <h3>Email Sent Successfully!</h3>
+              <button onClick={closeModal} className="btn btn-primary">Close</button>
+            </div>
           </div>
-        </div>
-      )}
-            </Container>
-        </section>
+        )}
+      </Container>
+    </section>
+    
     );
 };
 
-export default Appoinment;
+export default Appointment;

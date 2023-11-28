@@ -1,5 +1,5 @@
 import React from 'react';
-import Appoinment from '../../../Pages/Home/Appoinment/Appoinment';
+import Appointment from '../../../Pages/Home/Appoinment/Appoinment';
 import Banner from '../Banner/Banner';
 import ContactUs from '../ContactUs/ContactUs';
 
@@ -8,7 +8,7 @@ const Contact = () => {
         <>
             <Banner />
             <ContactUs />
-            <Appoinment />   
+            <Appointment />   
         </>
     );
 };
