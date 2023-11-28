@@ -182,11 +182,11 @@ const Appointment = () => {
                   </div>
                 </Col>
                 {(!formik.dirty || !formik.isValid) && (
-                  <div className="text-danger text-center">
-                    Please fill out all the fields
+                  <div className="text-danger ">
+                    <p>Please fill out all the fields</p>
                   </div>
                 )}
-                <Col md={12} lg={12} className="text-center mt-3">
+                <Col md={12} lg={12} className="d-flex justify-content-center mt-3">
                   <button
                     type="submit"
                     className={`btn btn-primary theme-btn btn-fill form-btn`}

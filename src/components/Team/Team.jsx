@@ -10,7 +10,7 @@ const Team = () => {
                 <Row>
                     <Col sm={12}>
                         <div className="section-title">
-                            <h1 className="mb-5 mb-sm-dent">Our Team</h1>
+                            <h1 className="mb-5 mb-sm-dent text-center">Our Team</h1>
                         </div>
                     </Col>
                 </Row>

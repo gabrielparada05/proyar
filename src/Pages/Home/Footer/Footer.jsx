@@ -6,14 +6,14 @@ const Footer = () => {
     return (
         <div className="footer-bg">
             <Container>
-                <Row className="text-white">
+                <Row className="text-white justify-content-around">
                     <Col xs={6} md={3}>
                         <div className="single-footer-widget">
                             <div className="widget-title">
                                 <h2>General</h2>
                             </div>
                             <div className="widget-content">
-                                <NavLink className="footer-link">FAQ's</NavLink>
+                                
                                 <NavLink className="footer-link">About Us</NavLink>
                                 <NavLink className="footer-link">Our Services</NavLink>
                                 <NavLink className="footer-link">Contact Us</NavLink>
@@ -21,16 +21,7 @@ const Footer = () => {
                         </div>
                     </Col>
 
-                    <Col xs={6} md={3}>
-                        <div className="single-footer-widget">
-                          
-                        </div>
-                    </Col>
-                    <Col xs={6} md={3}>
-                        <div className="single-footer-widget">
-                          
-                        </div>
-                    </Col>
+               
 
             
                     <Col xs={6} md={3}>
@@ -50,7 +41,7 @@ const Footer = () => {
                 </Row>
             </Container>
             <div className="footer-copy-right text-center text-white">
-                <p className='mb-0'>&copy; 2023 - <span className="developer">Gabriel Parada</span> | All Rights Reserved</p>
+                <p className='mb-0 text-center'>&copy; 2023 - <span className="developer">Gabriel Parada</span> | All Rights Reserved</p>
             </div>
         </div>
     );

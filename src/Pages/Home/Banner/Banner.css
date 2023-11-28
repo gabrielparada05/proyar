@@ -57,9 +57,9 @@
     font-weight: 600;
 }
 
-.btn-fill {
+/* .btn-fill {
     margin-right: 20px;
-}
+} */
 
 .btn-fill:hover {
     background: #fff;
@@ -164,6 +164,12 @@
         left: 27px;
         top: 429px;
     }
+
+    
+    .container-head {
+            justify-content: center!important;
+    }
+       
 }
 
 @media (max-width: 576px) {

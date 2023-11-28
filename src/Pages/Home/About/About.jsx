@@ -25,11 +25,13 @@ const About = () => {
                     <Col md={12} lg={6}>
                         <div className="about-right mt-5 mt-lg-0">
                             <div className="about-content " data-aos="zoom-in">
-                                <h1>Welcome to a Family</h1>
+                                <h1 className="text-center">Welcome to our Family</h1>
                                 <p className="about-p">"Welcome, where cleanliness meets family dedication. As a proud family-operated business, we have been tirelessly perfecting the art of cleaning for over 5 years. Our commitment to excellence and personalized service sets us apart. We don't just clean spaces; we create environments that resonate with warmth and care. Join our extended family of satisfied clients who have experienced the difference of a cleaning service that goes beyond the ordinary. Let us bring our expertise, reliability, and a touch of familial charm to your workplace. Discover the comfort of a clean space with Proyar Maintenance Services – where family values and years of experience converge for your utmost satisfaction"</p>
+                                <div className="text-center">
                                 <a href='/about'>About Us</a>
+                                </div>
                             </div>
-                            <div className="fun-fact-sec" data-aos="fade-right">
+                            {/* <div className="fun-fact-sec" data-aos="fade-right">
                                 <div className="single-fun">
                                     <span>100</span>
                                     <span>+</span>
@@ -51,7 +53,7 @@ const About = () => {
                                     <p>xxxxx</p>
                                 </div>
                                 <span className="line"></span>
-                            </div>
+                            </div> */}
                         </div>
                     </Col>
                 </Row>

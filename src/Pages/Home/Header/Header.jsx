@@ -24,7 +24,7 @@ const Header = () => {
                             <Link to="/service" className='list-item text-decoration-none'>Service</Link>
                             {/* <Link to="/dentist" className='list-item text-decoration-none'>Dentist</Link> */}
                             <Link to="/contact" className='list-item text-decoration-none'>Contact</Link>
-                            {user.email 
+                            {/* {user.email 
                             ?
                             <button type="button" className="btn btn-danger" onClick={logout}>Log Out</button>
                             :
@@ -32,7 +32,7 @@ const Header = () => {
                             }
                             {user.email &&
                                 <Navbar.Text><FontAwesomeIcon icon={faUser} /><span className="userName">{user.displayName}</span></Navbar.Text>
-                            }
+                            } */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

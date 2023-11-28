@@ -41,9 +41,17 @@
 
 
 /* for mobile responsive */
-@media only screen and (max-width: 426px){
+@media only screen and (max-width: 800px){
     .single-footer-widget {
         padding: 45px 0 20px;
+    }
+
+    .widget-title{
+        text-align: center;
+    }
+
+    .col-6 {
+        width: none;
     }
 }
 
