@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proyar/static/css/main.e4239aff.css",
-    "main.js": "/proyar/static/js/main.4e8d18fc.js",
+    "main.css": "/proyar/static/css/main.aa2c0df4.css",
+    "main.js": "/proyar/static/js/main.75942329.js",
     "static/js/787.92238753.chunk.js": "/proyar/static/js/787.92238753.chunk.js",
     "static/media/bio.png": "/proyar/static/media/bio.dbee6bb5e4a7b10b445d.png",
     "static/media/home_img.png": "/proyar/static/media/home_img.b9e0f4cc62640a4c1406.png",
@@ -23,7 +23,7 @@
     "static/media/serviceDetailImg2.png": "/proyar/static/media/serviceDetailImg2.1fc786f9b9cf63a04ee9.png",
     "static/media/hero-main-bg.png": "/proyar/static/media/hero-main-bg.b54b1572176a37fe55fd.png",
     "static/media/404.png": "/proyar/static/media/404.e45a4490ce65c5b21c9e.png",
-    "static/media/logo_proyar.png": "/proyar/static/media/logo_proyar.918a0b11e42b18d475c2.png",
+    "static/media/logo_proyar.png": "/proyar/static/media/logo_proyar.d904d921f1400bd6e508.png",
     "static/media/josefin-sans-all-400-normal.woff": "/proyar/static/media/josefin-sans-all-400-normal.e89cb50b139916039cdc.woff",
     "static/media/doctorfinding.c2532ac3.png": "/proyar/static/media/doctorfinding.c2532ac3.3e317a80d2565d9afd8a.png",
     "static/media/doctor-nurse.png": "/proyar/static/media/doctor-nurse.25c2728a8c3138632ffe.png",
@@ -38,12 +38,12 @@
     "static/media/slick.ttf": "/proyar/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/proyar/index.html",
     "static/media/slick.woff": "/proyar/static/media/slick.295183786cd8a1389865.woff",
-    "main.e4239aff.css.map": "/proyar/static/css/main.e4239aff.css.map",
-    "main.4e8d18fc.js.map": "/proyar/static/js/main.4e8d18fc.js.map",
+    "main.aa2c0df4.css.map": "/proyar/static/css/main.aa2c0df4.css.map",
+    "main.75942329.js.map": "/proyar/static/js/main.75942329.js.map",
     "787.92238753.chunk.js.map": "/proyar/static/js/787.92238753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4239aff.css",
-    "static/js/main.4e8d18fc.js"
+    "static/css/main.aa2c0df4.css",
+    "static/js/main.75942329.js"
   ]
 }
