@@ -3,8 +3,9 @@ import React, { useRef, useEffect, useState } from 'react';
 import { Col, Container, Row } from "react-bootstrap";
 import { DetailServices } from "../../../Data/DetailsServices.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faHouseLaptop, faIndustry,faPersonThroughWindow,faPersonDigging,faSquareParking,faHouseChimneyMedical,faBuilding,faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faHouseLaptop, faIndustry,faPersonThroughWindow,faPersonDigging,faSquareParking,faHouseChimneyMedical,faBuilding,faAngleUp, faRug } from '@fortawesome/free-solid-svg-icons';
 import "./Detail.css";
+import Services from '../Service/Service.jsx';
 
 
 
@@ -26,7 +27,7 @@ const Detail = () => {
         setGoUp(false);
       }
     };
-    window.addEventListener("scroll", onPageScroll);
+    window.addEventListener("scroll", onPageScroll, { passive: true });
 
     return () => {
       window.removeEventListener("scroll", onPageScroll);
@@ -54,14 +55,18 @@ const Detail = () => {
     }
   };
 
+  <Services scrollToService={scrollToService} />
+  
+
   return (
     <>
-
-
+  
+  
     <div className='d-flex flex-wrap justify-content-center ms-4 me-4'>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('residential-cleaning')}><FontAwesomeIcon icon={faHome} /> Go to Residential Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('commercial-cleaning')}><FontAwesomeIcon icon={faHouseLaptop} />Go to Commercial Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('industrial-cleaning')}><FontAwesomeIcon icon={faIndustry} /> Go to Industrial Cleaning</button>
+   <button className="btn btn-primary m-4" onClick={() => scrollToService('carpet-cleaning')}><FontAwesomeIcon icon={faRug} /> Go to Carpet Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('window-cleaning')}><FontAwesomeIcon icon={faPersonThroughWindow} /> Go to Window Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('post-construction-cleaning')}><FontAwesomeIcon icon={faPersonDigging} />Go to Post-Construction Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('parking-cleaning')}><FontAwesomeIcon icon={faSquareParking} /> Go to Parking Cleaning</button>
@@ -69,16 +74,18 @@ const Detail = () => {
    <button className="btn btn-primary m-4" onClick={() => scrollToService('building-cleaning-and-maintenance')}><FontAwesomeIcon icon={faBuilding} /> Go to Building Cleaning</button>
    </div>
 
+
+
     {DetailServices.map((Detail) => (
       <section key={Detail.id} ref={serviceRefs[Detail.service.toLowerCase().replace(/\s+/g, '-')]} className={`service-section ${Detail.id % 2 === 0 ? 'even-section' : 'odd-section'}`}>        <Container>
              <div >
               <h2 className= {`fw-bold fw-bold text-center mt-5 mb-3  ${Detail.id % 2 === 0 ? 'text-white pt-4 pb-3' : 'text-black'}`}
               >{Detail.service}</h2>
-              <p className= {`text-center p-3 ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>{Detail.overview}</p>
+              <p className= {`text-center p-3 fs-5 ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>{Detail.overview}</p>
               <Row>
               {Detail.steps.map((step)=> 
-               <Col md={6} lg={6} xl={4} xs={12}>
-               <div key={step.id} className="service-step-box" data-aos="flip-left">
+               <Col key={step.title} md={6} lg={6} xl={4} xs={12}>
+               <div  className="service-step-box" data-aos="flip-left">
                  <div className="service-icon">
                    <img src={step.img} alt="" />
                  </div>
@@ -98,6 +105,10 @@ const Detail = () => {
            
 
         </Container>
+        </section>
+       ))}
+
+        
        
         <div
   onClick={scrollToTop}
@@ -106,9 +117,9 @@ const Detail = () => {
   <FontAwesomeIcon icon={faAngleUp} />
 </div>
     
-      </section>
+    
+
      
-))}
 
     </>
   );

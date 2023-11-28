@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { FakeService } from '../../Data/Services';
+import { CleaningService } from '../../Data/Services';
 import Services from '../../Pages/Home/Services/Services';
 
 const Service = () => {
@@ -16,7 +16,7 @@ const Service = () => {
                 </Row>
                 <Row>
                     {
-                        FakeService.map(treatment => (
+                        CleaningService.map(treatment => (
                             <Services key={treatment.id} treatment={treatment} />
                         ))
                     }

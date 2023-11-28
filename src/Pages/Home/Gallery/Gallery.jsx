@@ -76,11 +76,11 @@ const Gallery = () => {
             <img src={g4} alt="" className="gallery-image" />
             <img src={g5} alt="" className="gallery-image" />
             <img src={g6} alt="" className="gallery-image" /> 
-            <iframe className='gallery-image' src="https://www.youtube.com/embed/LgXbcyODKhI" frameborder="0" allowfullscreen></iframe>
-            <iframe className='gallery-image' src="https://www.youtube.com/embed/iXs3WDb-fdU" frameborder="0" allowfullscreen></iframe>
-            <iframe className='gallery-image' src="https://www.youtube.com/embed/RcxQ64sWpIQ" frameborder="0" allowfullscreen></iframe>
-            <iframe className='gallery-image' src="https://www.youtube.com/embed/PzDSQuFL6Yw" frameborder="0" allowfullscreen></iframe>
-            <iframe className='gallery-image' src="https://www.youtube.com/embed/VP3wAxzxWl4" frameborder="0" allowfullscreen></iframe>
+            <iframe className='gallery-image' src="https://www.youtube.com/embed/LgXbcyODKhI" frameBorder="0" allowFullScreen></iframe>
+            <iframe className='gallery-image' src="https://www.youtube.com/embed/iXs3WDb-fdU" frameBorder="0" allowFullScreen></iframe>
+            <iframe className='gallery-image' src="https://www.youtube.com/embed/RcxQ64sWpIQ" frameBorder="0" allowFullScreen></iframe>
+            <iframe className='gallery-image' src="https://www.youtube.com/embed/PzDSQuFL6Yw" frameBorder="0" allowFullScreen></iframe>
+            <iframe className='gallery-image' src="https://www.youtube.com/embed/VP3wAxzxWl4" frameBorder="0" allowFullScreen></iframe>
 
             </Slider>
             </Col>

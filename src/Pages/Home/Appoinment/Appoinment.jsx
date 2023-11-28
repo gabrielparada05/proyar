@@ -86,7 +86,7 @@ const Appoinment = () => {
                 <Row>
                     <Col sm={12} md={12}>
                         <div className="section-title">
-                            <h1 className="mt-5">Request a Free Estimation</h1>
+                            <h1 className="mt-5 text-center">Request a Free Estimation</h1>
                         </div>
                         <div className="appoinment-form">
                             <form action="#" className="row" onSubmit={handleSubmit}>
