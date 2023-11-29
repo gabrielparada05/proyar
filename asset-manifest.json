@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/proyar/static/css/main.aa2c0df4.css",
-    "main.js": "/proyar/static/js/main.75942329.js",
+    "main.css": "/proyar/static/css/main.d3e22514.css",
+    "main.js": "/proyar/static/js/main.2c47f977.js",
     "static/js/787.92238753.chunk.js": "/proyar/static/js/787.92238753.chunk.js",
     "static/media/bio.png": "/proyar/static/media/bio.dbee6bb5e4a7b10b445d.png",
     "static/media/home_img.png": "/proyar/static/media/home_img.b9e0f4cc62640a4c1406.png",
     "static/media/approved.jpg": "/proyar/static/media/approved.fed3e26cd7afab4e312d.jpg",
     "static/media/cleaning1.png": "/proyar/static/media/cleaning1.5eec3fadc3d99557e3e2.png",
+    "static/media/carolina.png": "/proyar/static/media/carolina.facf3c27a4b28c39d8a3.png",
     "static/media/g1.jpg": "/proyar/static/media/g1.cf0687188352299a529b.jpg",
     "static/media/about.jpg": "/proyar/static/media/about.d7b17eafa7eeb80e2c63.jpg",
-    "static/media/carolina.png": "/proyar/static/media/carolina.b056bb583f9213dc7914.png",
     "static/media/gabriel.png": "/proyar/static/media/gabriel.cd6d9244f92cc854f096.png",
     "static/media/ppe.png": "/proyar/static/media/ppe.b2bbb200f006810a207d.png",
     "static/media/g5.jpg": "/proyar/static/media/g5.01d06d63f5dcddd158b3.jpg",
@@ -20,6 +20,7 @@
     "static/media/serviceDetailImg.png": "/proyar/static/media/serviceDetailImg.f0852e46b53842144985.png",
     "static/media/WHMIS.png": "/proyar/static/media/WHMIS.eaf2aee123f2b3c6699d.png",
     "static/media/services.png": "/proyar/static/media/services.554c7835b33243cac72f.png",
+    "static/media/maria.png": "/proyar/static/media/maria.22b66d8fd00dbf9dfc23.png",
     "static/media/serviceDetailImg2.png": "/proyar/static/media/serviceDetailImg2.1fc786f9b9cf63a04ee9.png",
     "static/media/hero-main-bg.png": "/proyar/static/media/hero-main-bg.b54b1572176a37fe55fd.png",
     "static/media/404.png": "/proyar/static/media/404.e45a4490ce65c5b21c9e.png",
@@ -38,12 +39,12 @@
     "static/media/slick.ttf": "/proyar/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/proyar/index.html",
     "static/media/slick.woff": "/proyar/static/media/slick.295183786cd8a1389865.woff",
-    "main.aa2c0df4.css.map": "/proyar/static/css/main.aa2c0df4.css.map",
-    "main.75942329.js.map": "/proyar/static/js/main.75942329.js.map",
+    "main.d3e22514.css.map": "/proyar/static/css/main.d3e22514.css.map",
+    "main.2c47f977.js.map": "/proyar/static/js/main.2c47f977.js.map",
     "787.92238753.chunk.js.map": "/proyar/static/js/787.92238753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa2c0df4.css",
-    "static/js/main.75942329.js"
+    "static/css/main.d3e22514.css",
+    "static/js/main.2c47f977.js"
   ]
 }
