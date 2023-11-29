@@ -2,7 +2,7 @@
     padding: 120px 0;
 }
 
-.sigle-doctor {
+.single-staff {
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 8.135px 18.271px 40px 0 rgb(0 0 0 / 8%);
@@ -11,7 +11,7 @@
     transition: .4s;
 }
 
-.doctors-profile {
+.staff-profile {
     border-radius: 50%;
     width: 217px;
     height: 217px;
@@ -29,7 +29,7 @@
     margin-top: 10px;
 }
 
-.doctors-profile::before {
+.staff-profile::before {
     background: #fc5185;
     position: absolute;
     left: 0;
@@ -41,7 +41,7 @@
     top: -1px;
 }
 
-.doctors-profile img {
+.staff-profile img {
     position: absolute;
     bottom: 1px;
     -webkit-transform: translateX(-50%);
@@ -49,31 +49,31 @@
     z-index: 4;
 }
 
-.doctors-info {
+.staff-info {
     margin-top: 33px;
 }
 
-.doctors-info h3 {
+.staff-info h3 {
     line-height: 1;
     transition: .3s;
 }
 
-.doctors-info h3 a {
+.staff-info h3 a {
     text-decoration: none;
     color: black;
 }
 
-.doctors-info h3 a:hover {
+.staff-info h3 a:hover {
     color: #fc5185;
 }
 
-.doctors-social {
+.staff-social {
     border-top: 2px solid #dcdcdc7a;
     padding-top: 15px;
     margin-top: 14px;
 }
 
-.doctors-social a, .loginbtn {
+.staff-social a, .loginbtn {
     display: inline-block;
     width: 24px;
     height: 24px;
@@ -87,13 +87,50 @@
     transition: .4s;
 }
 
-.doctors-social a:hover, .loginbtn:hover {
+.staff-social a:hover, .loginbtn:hover {
     background-color: #fc5185;
 }
 
 
-@media only screen and (max-width: 426px){
+@media only screen and (max-width: 526px){
     .mb-sm-dent {
         margin-bottom: 0 !important;
     }
+
+    .single-staff, .single-feature-box {
+        padding: 5px!important;
+        margin: 0 10px 10px 10px!important;
+        
+      
+    }
+
+    .staff-profile {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+      
+    }
+
+    .container-staff{
+        width: 50%;
+    }
+    
+    .staff-info {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    
+    .staff-info h3 {
+        line-height: normal;
+        transition: .3s;
+        font-size: 18px!important;
+        line-height: normal!important;
+        padding-bottom:5px;
+    }
+
+
 }

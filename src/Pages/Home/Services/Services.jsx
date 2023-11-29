@@ -9,7 +9,7 @@ import './Services.css';
 
 const Services = (props) => {
 
-    const {id, title, description, link, img} = props.treatment;
+    const {id, title, description, short_title, link, img} = props.treatment;
     // const { scrollToService } = props;
     useEffect(() => {
         AOS.init({
@@ -20,13 +20,14 @@ const Services = (props) => {
     return (
         <>
        
-            <Col  key={id} md={6} lg={6} xl={4} xs={12}>
-                <div className="single-service-box" data-aos="flip-left">
+            <Col  className="container-service-general" key={id} md={6} lg={6} xl={4} xs={12}>
+                <div className="single-service-box-general" data-aos="flip-left">
                     <div className="service-icon">
-                        <img src={img} alt="" />
+                        <img className="img-service-general" src={img} alt="" />
                     </div>
-                    <h3>{title}</h3>
-                    <p>{description}</p>
+                    <h3 className="screen-big justify-content-center">{title}</h3>
+                    <h3 className="screen-mobile justify-content-center">{short_title}</h3>
+                    <p className="screen-big">{description}</p>
                     {/* <a href="/service" onClick={() => scrollToService(`${link}`)}>Read More</a> */}
                     <Link to="/service">
                     View Details
