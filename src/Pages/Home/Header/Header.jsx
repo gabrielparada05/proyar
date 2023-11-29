@@ -1,25 +1,35 @@
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link,useLocation } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 import logo from '../../../Images/logo_proyar.png';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './Header.css';
 
 const Header = () => {
 
-    const { user, logout } = useAuth();
+    // const { user, logout } = useAuth();
+    const [expanded, setExpanded] = useState(false);
+    const location = useLocation();
+
+  useEffect(() => {
+  
+    setExpanded(false);
+  }, [location])
+    
 
     return (
         <div className="head-bg">
-            <Navbar className="navbar" collapseOnSelect expand="lg">
+            <Navbar collapseOnSelect  className="navbar"  expand="md" expanded={expanded}>
                 <Container className="container-head">
-                    <Navbar.Brand href="/home"><img className='logo 'src={logo} alt="logo" /></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" expand="lg"/>
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto align-items-center">
-                            <Link to="/home" className='list-item text-decoration-none'>Home</Link>
+                    <Navbar.Brand   href="/home"><img className='logo 'src={logo} alt="logo" /></Navbar.Brand>
+                    <Navbar.Toggle   expand="md" aria-controls="responsive-navbar-nav"   onClick={() => setExpanded(!expanded)} />
+                    <Navbar.Collapse   id="responsive-navbar-nav">
+                        <Nav   className="ms-auto align-items-center">
+                            <Link  to="/home" className='list-item text-decoration-none'>Home</Link>
                             <Link to="/about" className='list-item text-decoration-none'>About</Link>
                             <Link to="/service" className='list-item text-decoration-none'>Service</Link>
                             {/* <Link to="/dentist" className='list-item text-decoration-none'>Dentist</Link> */}

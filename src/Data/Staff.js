@@ -1,6 +1,6 @@
 import carolina from '../Images/carolina.png';
 import gabriel from'../Images/gabriel.png';
-
+import maria from'../Images/maria.png';
 
 export const Staff = [
     {
@@ -25,7 +25,7 @@ export const Staff = [
         "id": "004",
         "name": "Maria de los Angeles Ojeda",
         "status": "Site Supervisor Manager",
-        "img": "https://i.ibb.co/yRcJ55b/d2.png",
+        "img": maria,
     },
     {
         "id": "005",
