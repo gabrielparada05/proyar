@@ -1,4 +1,6 @@
-
+.screen-mobile {
+   display:none!important; 
+}
 .service-step-box {
     border: 1px solid #3672bc;
     border-radius: 20px;
@@ -44,6 +46,21 @@
 
 
 /* for mobile responsive */
+
+@media only screen and (max-width: 526px){
+  .screen-big {
+    display: none!important;
+  }
+
+  .screen-mobile {
+    display:flex!important; 
+ }
+  
+    .btn-primary{
+    padding: 5px;
+    margin: 10px!important;
+  }
+}
 @media only screen and (max-width: 426px){
     .healing {
         padding: 0 !important;

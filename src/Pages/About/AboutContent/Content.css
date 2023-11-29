@@ -18,6 +18,13 @@ li {
 }
 
 /* for mobile responsive */
+
+
+@media only screen and (max-width: 726px){
+   p {
+    margin: 0 15px 30px 15px;
+   }
+}
 @media only screen and (max-width: 426px){
     .content-inner {
         margin: 0 !important;

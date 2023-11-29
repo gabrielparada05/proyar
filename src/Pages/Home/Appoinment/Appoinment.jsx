@@ -107,7 +107,7 @@ const Appointment = () => {
               lineHeight: "4em",
               margin: "10px",
             }}
-            countryCode="US"
+            countryCode="CA"
             svg
           />
         </Col>

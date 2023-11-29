@@ -16,7 +16,6 @@ const Header = () => {
     const location = useLocation();
 
   useEffect(() => {
-  
     setExpanded(false);
   }, [location])
     
