@@ -60,6 +60,22 @@
     padding: 5px;
     margin: 10px!important;
   }
+
+  .p-service-detail {
+    font-size: 14px;
+  }
+
+  .h4-service-detail {
+    font-size: 18px;
+  }
+
+  .img-service-detail {
+    width: 40px;
+  }
+
+  .container-service-detail {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 426px){
     .healing {

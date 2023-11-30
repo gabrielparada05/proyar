@@ -96,16 +96,19 @@ const Detail = () => {
               <p className= {`text-center p-3 fs-5 ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>{Detail.overview}</p>
               <Row>
               {Detail.steps.map((step)=> 
-               <Col key={step.title} md={6} lg={6} xl={4} xs={12}>
+               <Col className='container-service-detail' key={step.title} md={6} lg={6} xl={4} xs={12}>
                <div  className="service-step-box" data-aos="flip-left">
                  <div className="service-icon">
-                   <img src={step.img} alt="" />
+                   <img className="img-service-detail" src={step.img} alt="" />
                  </div>
-                 <h4 className= {`text-center ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>
+                 <h4 className= {`h4-service-detail text-center ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>
                    {step.title}
                  </h4>
-                 <p className= {`text-center ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>
+                 <p className= {`screen-big p-service-detail text-center ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>
                  {step.description}
+                 </p>
+                 <p className= {`screen-mobile p-service-detail text-center ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>
+                 {step.short_description}
                  </p>
                </div>
              </Col>
