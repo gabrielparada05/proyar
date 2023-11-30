@@ -59,15 +59,8 @@ const Safety = () => {
         <section className="about-content-sec">
             <Container>
                 <Row>
-                <h2 className='fw-bold fw-bold text-center mt-5 mb-3'  
-              > 
-              Safety is our top priority 
-
-
-
-
-              </h2>
-              <p className='text-center p-3 fs-4'>We ensure the well-being of our team, environment and clients through rigorous training, compliance with industry regulations, and a commitment to minimizing risks in every cleaning task </p>
+                <h2 className='fw-bold fw-bold text-center mt-5 mb-3'> Safety is our top priority </h2>
+              <p className='p-safety text-center p-3 fs-4'>We ensure the well-being of our team, environment and clients through rigorous training, compliance with industry regulations, and a commitment to minimizing risks in every cleaning task </p>
                 <Col md={12}>
                         <Slider {...settings} className='slider'>
                            

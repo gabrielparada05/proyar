@@ -93,9 +93,15 @@ textarea {
     padding: 10px;
   }
 
+  .appoinment-wrapper {
+    padding-bottom: 30px;
+}
+
   .section-title h1 {
-    font-size: 40px;
-    padding-bottom: 10px;
+    font-size: 30px;
+    padding: 10px;
+
+
   }
 
   button {

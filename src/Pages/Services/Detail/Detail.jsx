@@ -93,8 +93,9 @@ const Detail = () => {
              <div >
               <h2 className= {`fw-bold fw-bold text-center mt-5 mb-3  ${Detail.id % 2 === 0 ? 'text-white pt-4 pb-3' : 'text-black'}`}
               >{Detail.service}</h2>
-              <p className= {`text-center p-3 fs-5 ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>{Detail.overview}</p>
-              <Row>
+              <p className= {`screen-big text-center p-3 fs-5 ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>{Detail.overview}</p>
+              <p className= {`screen-mobile text-center p-3 fs-5 ${Detail.id % 2 === 0 ? 'text-white' : 'text-black'}`}>{Detail.short_description}</p>
+              <Row className='parent-service-detail'>
               {Detail.steps.map((step)=> 
                <Col className='container-service-detail' key={step.title} md={6} lg={6} xl={4} xs={12}>
                <div  className="service-step-box" data-aos="flip-left">

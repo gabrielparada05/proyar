@@ -52,6 +52,14 @@
     display: none!important;
   }
 
+  .service-step-box {
+    padding: 5px 10px;
+}
+
+  .service-step-box p {
+    margin: 0;
+  }
+
   .screen-mobile {
     display:flex!important; 
  }
@@ -76,17 +84,20 @@
   .container-service-detail {
     width: 50%;
   }
+
+  .parent-service-detail {
+    justify-content: center;
+    margin: auto;
+  }
+  .healing {
+    padding: 0 !important;
 }
-@media only screen and (max-width: 426px){
-    .healing {
-        padding: 0 !important;
-    }
 
-    .p-5 {
-        padding: 6px !important;
-    }
+.p-5 {
+    padding: 6px !important;
+}
 
-    .pt-xs-5 {
-        padding-top: 40px;
-    }
+.pt-xs-5 {
+    padding-top: 40px;
+}
 }
