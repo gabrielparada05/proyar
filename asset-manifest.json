@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proyar/static/css/main.d3e22514.css",
-    "main.js": "/proyar/static/js/main.2c47f977.js",
+    "main.css": "/proyar/static/css/main.3d801949.css",
+    "main.js": "/proyar/static/js/main.4fcd79aa.js",
     "static/js/787.92238753.chunk.js": "/proyar/static/js/787.92238753.chunk.js",
     "static/media/bio.png": "/proyar/static/media/bio.dbee6bb5e4a7b10b445d.png",
     "static/media/home_img.png": "/proyar/static/media/home_img.b9e0f4cc62640a4c1406.png",
@@ -39,12 +39,12 @@
     "static/media/slick.ttf": "/proyar/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/proyar/index.html",
     "static/media/slick.woff": "/proyar/static/media/slick.295183786cd8a1389865.woff",
-    "main.d3e22514.css.map": "/proyar/static/css/main.d3e22514.css.map",
-    "main.2c47f977.js.map": "/proyar/static/js/main.2c47f977.js.map",
+    "main.3d801949.css.map": "/proyar/static/css/main.3d801949.css.map",
+    "main.4fcd79aa.js.map": "/proyar/static/js/main.4fcd79aa.js.map",
     "787.92238753.chunk.js.map": "/proyar/static/js/787.92238753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3e22514.css",
-    "static/js/main.2c47f977.js"
+    "static/css/main.3d801949.css",
+    "static/js/main.4fcd79aa.js"
   ]
 }
