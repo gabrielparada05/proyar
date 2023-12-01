@@ -58,7 +58,7 @@
 .single-service-box-general {
     border: 1px solid #3672bc;
     border-radius: 5px;
-    padding: 60px 47px 70px;
+    padding: 60px 47px 30px;
     margin-top: 30px;
     transition: .5s;
     background: transparent;
@@ -82,17 +82,23 @@
 }
 
 .single-service-box-general p {
-    color: #d7d3d3;
+    color: #ffffff;
     font-family: 'Roboto Slab', serif;
 }
 
 .single-service-box-general a {
-    color: #fff !important;
+    color: #fc5185;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
 }
 
 .single-service-box-general a:hover {
-    color: #fc5185 !important;
+    color: #e38aa3 !important;
+    font-size: 14px;
 }
+
+
 
 
 @media only screen and (max-width: 526px){
@@ -118,4 +124,10 @@
  .img-service-general {
     width: 40px;
   }
+
+  .slick-slider {
+    margin: 0 20px;
+  }
+ 
+
   }

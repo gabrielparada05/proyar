@@ -38,3 +38,32 @@ function App() {
 }
 
 export default App;
+
+
+// function App() {
+//   const publicUrl = process.env.PUBLIC_URL;
+
+//   return (
+//     <div className="App">
+//       <AuthProvider>
+//         <Router>
+//           <Header />
+//           <Routes>
+//             <Route path={`${publicUrl}/`} element={<Home />} />
+//             <Route path={`${publicUrl}/proyar`} element={<Home />} />
+//             <Route path={`${publicUrl}/about`} element={<About />} />
+//             <Route path={`${publicUrl}/service`} element={<Service />} />
+//             <Route path={`${publicUrl}/team`} element={<Team />} />
+//             <Route path={`${publicUrl}/contact`} element={<Contact />} />
+//             <Route path={`${publicUrl}/approved`} element={<Approved />} />
+//             <Route path={`${publicUrl}/login`} element={<Login />} />
+//             <Route path={`${publicUrl}/*`} element={<NotFound />} />
+//           </Routes>
+//           <Footer />
+//         </Router>
+//       </AuthProvider>
+//     </div>
+//   );
+// }
+
+// export default App;

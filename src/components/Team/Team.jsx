@@ -14,7 +14,7 @@ const Team = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row className='justify-content-center'>
                     {
                         Staff.map(team => (
                             <Doctors key={team.id} team={team} />

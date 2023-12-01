@@ -14,7 +14,7 @@ const Service = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row className='justify-content-center'>
                     {
                         CleaningService.map(treatment => (
                             <Services key={treatment.id} treatment={treatment} />

@@ -55,8 +55,17 @@
     }
 }
 
-@media only screen and (max-width: 321px){
+@media only screen and (max-width: 526px){
     .footer-copy-right {
         padding: 20px 8px;
     }
+
+    .widget-content {
+        text-align: center;
+    }
+
+    .footer-link {
+        margin: 0;
+    }
+
 }
