@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, NavLink, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,8 +7,14 @@ import {
   faPhone,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "inital" });
+  };
+  
   return (
     <div className="footer-bg">
       <Container>
@@ -19,9 +25,9 @@ const Footer = () => {
                 <h2>General</h2>
               </div>
               <div className="widget-content">
-                <NavLink className="footer-link">About Us</NavLink>
-                <NavLink className="footer-link">Our Services</NavLink>
-                <NavLink className="footer-link">Contact Us</NavLink>
+                <Link to="/about" onClick={scrollToTop} className="footer-link">About Us</Link>
+                <Link to="/service" onClick={scrollToTop}  className="footer-link">Our Services</Link>
+                <Link to="/contact" onClick={scrollToTop}  className="footer-link">Contact Us</Link>
               </div>
             </div>
           </Col>
