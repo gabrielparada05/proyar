@@ -14,6 +14,9 @@ const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "instant" });
   };
+
+  const publicUrl = process.env.PUBLIC_URL;
+
   
   return (
     <div className="footer-bg">
