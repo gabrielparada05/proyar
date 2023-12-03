@@ -11,6 +11,7 @@ import Home from './Pages/Home/Home/Home.jsx';
 import Login from './Pages/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
 import Service from './Pages/Services/Service/Service';
+import Gallery from './Pages/Home/Gallery/Gallery.jsx';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/service' element={<Service />} />
+          <Route path='/gallery' element={<Gallery />} />
           <Route path='/team' element={<Team />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/approved' element={<Approved />} />
