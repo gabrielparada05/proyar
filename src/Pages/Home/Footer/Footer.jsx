@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "inital" });
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
   
   return (
