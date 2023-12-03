@@ -15,7 +15,7 @@ import Service from './Pages/Services/Service/Service';
 function App() {
   return (
     <div className="App">
-      <AuthProvider>
+      {/* <AuthProvider> */}
       <Router>
         <Header />
         <Routes>
@@ -32,7 +32,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-    </AuthProvider>
+    {/* </AuthProvider> */}
     </div>
   );
 }
