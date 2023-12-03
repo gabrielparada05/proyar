@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import AuthProvider from './Context/AuthProvider';
+// import AuthProvider from './Context/AuthProvider';
 import About from './Pages/About/About/About';
 import Approved from './Pages/Approved/Approved';
 import Contact from './Pages/Contact/Contact/Contact';
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       {/* <AuthProvider> */}
-      <Router>
+      <Router basename="/proyar">
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
