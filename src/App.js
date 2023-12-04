@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       {/* <AuthProvider> */}
-      <Router basename="/proyar">
+      <Router>
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
