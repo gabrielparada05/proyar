@@ -28,9 +28,9 @@ const Footer = () => {
                 <h2>General</h2>
               </div>
               <div className="widget-content">
-                <Link to='/about' onClick={scrollToTop} className="footer-link">About Us</Link>
-                <Link to='/service' onClick={scrollToTop}  className="footer-link">Our Services</Link>
-                <Link to='/contact' onClick={scrollToTop}  className="footer-link">Contact Us</Link>
+                <Link to='/about' className="footer-link">About Us</Link>
+                <Link to='/service'  className="footer-link">Our Services</Link>
+                <Link to='/contact'  className="footer-link">Contact Us</Link>
               </div>
             </div>
           </Col>
