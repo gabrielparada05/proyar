@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyar/static/css/main.9405b02e.css",
-    "main.js": "/proyar/static/js/main.b17d73ec.js",
+    "main.js": "/proyar/static/js/main.899ec565.js",
     "static/js/787.92238753.chunk.js": "/proyar/static/js/787.92238753.chunk.js",
     "static/media/bio.png": "/proyar/static/media/bio.dbee6bb5e4a7b10b445d.png",
     "static/media/home_img.png": "/proyar/static/media/home_img.b9e0f4cc62640a4c1406.png",
@@ -40,11 +40,11 @@
     "index.html": "/proyar/index.html",
     "static/media/slick.woff": "/proyar/static/media/slick.295183786cd8a1389865.woff",
     "main.9405b02e.css.map": "/proyar/static/css/main.9405b02e.css.map",
-    "main.b17d73ec.js.map": "/proyar/static/js/main.b17d73ec.js.map",
+    "main.899ec565.js.map": "/proyar/static/js/main.899ec565.js.map",
     "787.92238753.chunk.js.map": "/proyar/static/js/787.92238753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9405b02e.css",
-    "static/js/main.b17d73ec.js"
+    "static/js/main.899ec565.js"
   ]
 }
