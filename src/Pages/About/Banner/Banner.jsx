@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
-import HeroMainbg from '../../../Images/services.png';
 
 import './Banner.css';
 const Banner = () => {

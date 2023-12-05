@@ -7,7 +7,7 @@ import { Col } from "react-bootstrap";
 import "./Services.css";
 
 const Services = (props) => {
-  const { id, title, description, short_title, link, img } = props.treatment;
+  const { id, title, description, short_title, img } = props.treatment;
   // const { scrollToService } = props;
   useEffect(() => {
     AOS.init({

@@ -1,9 +1,9 @@
-import { faUser } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faUser } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link,useLocation } from 'react-router-dom';
-import useAuth from '../../../Hooks/useAuth';
+// import useAuth from '../../../Hooks/useAuth';
 import logo from '../../../Images/logo_proyar.png';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 

@@ -1,5 +1,3 @@
-import serviceDetailImg from "../Images/serviceDetailImg.png";
-import serviceDetailImg2 from "../Images/serviceDetailImg2.png";
 import assessment from "../Images/assessment.png";
 import dusting from "../Images/dust.png";
 import client from "../Images/client.png";
@@ -17,9 +15,9 @@ import floor from "../Images/floor.png";
 import emergency from "../Images/emergency-call.png";
 import waste from "../Images/waste.png";
 import pressure from "../Images/pressure.png";
-import duct from "../Images/duct-cleaning.png";
+// import duct from "../Images/duct-cleaning.png";
 import confined from "../Images/confined.png";
-import chemical from "../Images/chemical.png";
+// import chemical from "../Images/chemical.png";
 import high from "../Images/high.png";
 import heavy from "../Images/heavy.png";
 import machineCarpet from "../Images/machineCarpet.png";
