@@ -6,11 +6,11 @@ import './ContactUs.css';
 
 const ContactUs = () => {
     return (
-        <section className="p-5">
+        <section className="contact-wrapper">
             <Container >
                 <Row>
                     <Col md={6} lg={6} xl={4}>
-                        <div className="single-contact icon1">
+                        <div className=" single-contact icon1">
                             <div className="c-icon">
                                 <FontAwesomeIcon icon={faHome} />
                             </div>
