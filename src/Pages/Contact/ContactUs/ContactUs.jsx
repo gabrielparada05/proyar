@@ -1,6 +1,6 @@
+import React from 'react';
 import { faEnvelope, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './ContactUs.css';
 

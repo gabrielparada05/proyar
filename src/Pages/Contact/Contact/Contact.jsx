@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import Appointment from '../../../Pages/Home/Appoinment/Appoinment';
 import Banner from '../Banner/Banner';
 import ContactUs from '../ContactUs/ContactUs';
+import './ContactUs.css';
 
 const Contact = () => {
 
