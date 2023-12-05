@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, } from "react";
 import { useFormik } from "formik";
 import emailjs from "@emailjs/browser";
 import { Col, Container, Row } from "react-bootstrap";
 import ReactCountryFlag from "react-country-flag"
-import { Link } from "react-router-dom";
+// import {  useNavigate } from "react-router-dom";
 import "./Appoinment.css";
 
 const validate = (values) => {
+
+ 
   const errors = {};
 
   if (!values.email) {
@@ -65,9 +67,14 @@ const Appointment = () => {
       });
   };
 
+  // const navigate = useNavigate()
+
   const closeModal = () => {
     setShowModal(false);
-    window.location.href = "http://localhost:3000/ ";
+    setTimeout(() => {
+      window.location.reload();
+      window.scrollTo({ top: 0, behavior: 'instant' })
+    }, 0);
   };
 
   // validate email
