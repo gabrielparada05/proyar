@@ -6,7 +6,7 @@ import './ContactUs.css';
 
 const ContactUs = () => {
     return (
-        <section className="contactUs-wrapper">
+        <section className="p-5">
             <Container >
                 <Row>
                     <Col md={6} lg={6} xl={4}>
