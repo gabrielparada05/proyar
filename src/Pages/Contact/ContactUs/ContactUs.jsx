@@ -16,7 +16,7 @@ const ContactUs = () => {
                             </div>
                             <div className="c-info text-start">
                                 <h4>Address</h4>
-                                <p>48 Sundragron Trail,</p>
+                                {/* <p>48 Sundragron Trail,</p> */}
                                 <p>Bradford, ON</p>
                             </div>
                         </div>
@@ -28,8 +28,8 @@ const ContactUs = () => {
                             </div>
                             <div className="c-info text-start">
                                 <h4>Email</h4>
-                                <p>info@XXXXX.com</p>
-                                <p>email@XXXXX.com</p>
+                                <p>proyar@proyarservices.ca</p>
+                            
                             </div>
                         </div>
                     </Col>

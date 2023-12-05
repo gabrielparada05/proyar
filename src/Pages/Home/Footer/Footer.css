@@ -40,6 +40,10 @@
     color: #fc5185;
 }
 
+.footer-link {
+    margin-bottom: 0;
+}
+
 
 /* for mobile responsive */
 @media only screen and (max-width: 800px){

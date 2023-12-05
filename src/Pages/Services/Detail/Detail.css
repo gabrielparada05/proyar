@@ -1,6 +1,11 @@
 .screen-mobile {
    display:none!important; 
 }
+
+.parent-service-detail {
+  justify-content: center;
+}
+
 .service-step-box {
     border: 1px solid #3672bc;
     border-radius: 20px;

@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
 
 
-  const publicUrl = process.env.PUBLIC_URL;
+  // const publicUrl = process.env.PUBLIC_URL;
 
   
   return (
@@ -39,7 +39,7 @@ const Footer = () => {
               </div>
               <div className="widget-content">
                 <div>
-                  <address className="footer-link">
+                  <address className="footer-link address-link">
                     <FontAwesomeIcon icon={faLocationDot} /> 48 Sundragon Trail,
                     Bradford, ON
                   </address>
@@ -50,7 +50,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <div>
-                  <a className="footer-link" href="mailto: abc@example.com">
+                  <a className="footer-link" href="mailto: proyar@proyarservices.ca">
                     <FontAwesomeIcon icon={faEnvelope} /> Send Email
                   </a>
                 </div>
