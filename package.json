@@ -2,7 +2,7 @@
   "name": "proyar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gabrielparada05.github.io/proyar",
+  "homepage": "https://proyarservices.ca",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@fontsource/josefin-sans": "^4.5.9",
