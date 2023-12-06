@@ -6,8 +6,8 @@ import './ContactUs.css';
 
 const ContactUs = () => {
     return (
-        <section className="contact-wrapper">
-            <Container >
+        // <section className="contact-wrapper">
+            <Container className="contact-wrapper" >
                 <Row>
                     <Col md={6} lg={6} xl={4}>
                         <div className=" single-contact icon1">
@@ -47,7 +47,7 @@ const ContactUs = () => {
                     </Col>
                 </Row>
             </Container>
-        </section>
+        // </section>
     );
 };
 

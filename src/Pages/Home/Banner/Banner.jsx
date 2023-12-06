@@ -15,7 +15,7 @@ const Banner = () => {
                             <div className="hero-slide-left justify-content-end align-items-center text-center text-lg-start">
                                 <h2>Elevate your Workspace</h2>
                                 <h1>Exceeding Cleanliness Standards</h1>
-                                <p className="mb-xs-5 p-5 text-l ">Thank you for choosing Proyar Maintenance Services! We're your trusted partner for top-notch cleaning services. Explore our range of services for a healthier, happier space. Our dedicated team is here to exceed your expectations. Schedule your next cleaning session with us - we're just a call or message away!</p>
+                                <p className="mb-xs-5 text-l ">Thank you for choosing Proyar Maintenance Services! We're your trusted partner for top-notch cleaning services. Explore our range of services for a healthier, happier space. Our dedicated team is here to exceed your expectations. Schedule your next cleaning session with us - we're just a call or message away!</p>
                                 <div className="banner-btn m-sm-auto">
                                     {/* <Link to="/login"><button className="theme-btn btn-fill">Appoinment</button></Link> */}
                                     <button className='theme-btn bth-blank'>Learn More</button>
