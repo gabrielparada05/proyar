@@ -1,4 +1,6 @@
 import "@fontsource/josefin-sans";
+import React from 'react';
+import {Link} from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 import heroTeeth from '../../../Images/home_img.png';
 // import cleaners from '../../../Images/cleaning1.png';
@@ -18,7 +20,7 @@ const Banner = () => {
                                 <p className="mb-xs-5 text-l ">Thank you for choosing Proyar Maintenance Services! We're your trusted partner for top-notch cleaning services. Explore our range of services for a healthier, happier space. Our dedicated team is here to exceed your expectations. Schedule your next cleaning session with us - we're just a call or message away!</p>
                                 <div className="banner-btn m-sm-auto">
                                     {/* <Link to="/login"><button className="theme-btn btn-fill">Appoinment</button></Link> */}
-                                    <button className='theme-btn bth-blank'>Learn More</button>
+                                    <Link to="/service" className='theme-btn bth-blank m-3'>Learn More</Link>
                                 </div>
                             </div>
                         </Col>
