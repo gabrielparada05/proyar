@@ -94,7 +94,7 @@ const Appointment = () => {
         <Row>
           <Col sm={12} md={12}>
             <div className="section-title">
-              <h1 className="text-center pb-5">Request a Free Estimation</h1>
+              <h1 className="text-center pb-5 ">Request a Free Estimation</h1>
               <Col className="text-center">
           <h3>We also speak Spanish </h3>
           <ReactCountryFlag
@@ -123,7 +123,7 @@ const Appointment = () => {
               <form action="#" className="row" onSubmit={handleSubmit}>
                 <Col md={6} lg={6}>
                   <div className="mb-3">
-                    <label htmlFor="name" className="form-label">
+                    <label htmlFor="name" className="form-label fs-5">
                       Name <span className="text-danger">*</span>
                     </label>
                     <input
@@ -139,7 +139,7 @@ const Appointment = () => {
                 </Col>
                 <Col md={6} lg={6}>
                   <div className="mb-3">
-                    <label htmlFor="email" className="form-label">
+                    <label htmlFor="email" className="form-label fs-5">
                       Email <span className="text-danger">*</span>
                     </label>
                     <input
@@ -159,7 +159,7 @@ const Appointment = () => {
                 </Col>
                 <Col md={6} lg={6}>
                   <div className="mb-3">
-                    <label htmlFor="phone" className="form-label">
+                    <label htmlFor="phone" className="form-label fs-5">
                       Phone Number <span className="text-danger">*</span>
                     </label>
                     <input
@@ -175,7 +175,7 @@ const Appointment = () => {
                 </Col>
                 <Col md={12} lg={12} className="mt-3">
                   <div className="mb-3">
-                    <label htmlFor="message" className="form-label">
+                    <label htmlFor="message" className="form-label fs-5">
                       Message <span className="text-danger">*</span>
                     </label>
                     <textarea

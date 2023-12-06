@@ -1,90 +1,92 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-
+import seo from '../../../Images/seo.png';
+import promise from '../../../Images/promise.png';
+import partners from '../../../Images/partners.png';
+import excellence from '../../../Images/excellence.png';
+import safety from '../../../Images/safety.png';
+import client from '../../../Images/client.png';
 import "./Content.css";
 
 const aboutText = `
   Welcome to Proyar Maintenance Services, where our commitment to
-  cleanliness is driven by a powerful mission and core values. Our
-  mission is to exceed client expectations through exceptional
-  cleaning services, fostering a healthier and more comfortable
-  environment.
+  cleanliness is driven by a mission to exceed client expectations
+  through exceptional services, fostering a healthier environment.
 `;
 
 const valuesList = [
   {
     title: "Excellence:",
     content:
-      "We strive for excellence in every cleaning task, ensuring meticulous attention to detail and consistently high standards.",
+      "Striving for excellence in every task with meticulous attention to detail.",
+    img: excellence,
   },
   {
     title: "Integrity:",
     content:
-      "Honesty and transparency are the foundations of our business. We operate with integrity, earning the trust of our clients and team.",
+      "Operating with honesty and transparency, earning trust from clients and our team.",
+      img: seo,
   },
   {
     title: "Safety:",
     content:
-      "The well-being of our team and clients is our top priority. We adhere to the highest safety standards, creating a secure environment in every space we clean.",
+      "Prioritizing the well-being of our team and clients with adherence to the highest safety standards.",
+      img: safety,
   },
   {
-    title: "Customer Satisfaction: ",
+    title: "Customer Satisfaction:",
     content:
-      "Your satisfaction is our driving force. We tailor our services to meet your unique needs, providing a seamless and enjoyable experience.",
+      "Dedicated to your satisfaction by tailoring services to meet unique needs.",
+      img: client,
   },
 ];
 
 const promiseText = `
-  At Proyar Maintenance Services, we promise more than just
-  cleanliness – we promise an unwavering commitment to your
-  well-being and satisfaction. Join us on a journey where
-  professionalism meets passion, and every space becomes a testament
-  to our dedication to excellence. Our vision is to be the leading
-  force in transforming spaces into immaculate havens, creating
-  environments that inspire well-being and elevate the quality of
-  life. We envision a future where our innovative cleaning solutions
-  set the industry standard, and our commitment to excellence
-  becomes synonymous with a cleaner, healthier, and happier world.
-  With a focus on sustainability, continuous improvement, and client
-  satisfaction, we aim to redefine the cleaning experience and leave
-  a lasting, positive impact on every space we touch.
+  We go beyond mere cleanliness, dedicated to your well-being. Join us where professionalism meets passion, creating spaces reflecting our commitment to excellence. Our vision is to lead in transforming spaces into havens, inspiring well-being, and setting industry standards with innovative cleaning solutions.
 `;
 
 const Content = () => {
   return (
     <section className="about-content-sec">
       <Container className="mb-5">
-        <Row>
-          <Col md={12} lg={{ order: 2 }}>
-            <div className="section-title text-center">
-              <h1>Our Practice</h1>
-            </div>
-            <p className="fs-3 text-center">{aboutText}</p>
+  <Row className="justify-content-between">
+  <Col  md={6} lg={6} xl={4} xs={12} className="w-50">
+      <div className="section-title text-center">
+        <img src={partners} alt="" />
+        <h3>Our Practice</h3>
+        <p className="fs-5 text-justify">{aboutText}</p>
+      </div>
+    </Col>
 
-            <h3 className="text-center fs-2 p-5">Our Promise:</h3>
-            <p className="fs-5 text-justify">{promiseText}</p>
-          </Col>
-        </Row>
-      </Container>
+    <Col  md={6} lg={6} xl={4} xs={12} className="w-50">
 
-      
+      <div className="section-title text-center">
+      <img src={promise} alt="" />
+        <h3 > Our Promise:</h3>
+        <p className="fs-5 text-justify">{promiseText}</p>
+      </div>
+    </Col>
+  </Row>
+</Container>
+
+
       <div className="service-wrapper fs-5">
-      <h2 className="text-center text-white fs-2">Our Values:</h2>
+        <h3 className="text-center text-white">Our Values:</h3>
         <Container>
           <Row className="justify-content-center">
-          {valuesList.map((value, index) => (
-          
-               <Col key={index} md={6} lg={6} xl={4} xs={12}>
-              <div className="single-service-box p-3">
-                <div className="service-icon">
-                  {/* <img src={img} alt="" /> */}
+            {valuesList.map((value, index) => (
+              <Col key={index} md={6} lg={6} xl={4} xs={12}>
+                <div className="single-service-box p-3">
+                  <div className="service-icon">
+                    <img src={value.img} alt="" />
+                  </div>
+                  <h3 className="fw-bolder text-decoration-underline">
+                    {value.title}
+                  </h3>
+                  <p className="text-white">{value.content}</p>
                 </div>
-                <h3 className="fw-bolder text-decoration-underline">{value.title}</h3>
-                <p className="text-white">{value.content}</p>
-              </div>
               </Col>
-          
-          ))}
+            ))}
           </Row>
         </Container>
       </div>

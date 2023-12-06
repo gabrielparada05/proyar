@@ -2,7 +2,7 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link,useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 // import useAuth from '../../../Hooks/useAuth';
 import logo from '../../../Images/logo_proyar.png';
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +24,7 @@ const Header = () => {
         <div className="head-bg">
             <Navbar collapseOnSelect  className="navbar"  expand="md" expanded={expanded}>
                 <Container className="container-head">
-                    <Navbar.Brand   href="/home"><img className='logo 'src={logo} alt="logo" /></Navbar.Brand>
+                    <Navbar.Brand   as={Link} to="/home" ><img className='logo 'src={logo} alt="logo" /></Navbar.Brand>
                     <Navbar.Toggle   expand="md" aria-controls="responsive-navbar-nav"   onClick={() => setExpanded(!expanded)} />
                     <Navbar.Collapse   id="responsive-navbar-nav">
                         <Nav   className="ms-auto align-items-center">
