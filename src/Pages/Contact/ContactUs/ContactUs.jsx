@@ -7,9 +7,9 @@ import './ContactUs.css';
 const ContactUs = () => {
     return (
         // <section className="contact-wrapper">
-            <Container className="contact-wrapper" >
+            <Container className="contact-wrapper mt-5 mb-5" >
                 <Row>
-                    <Col md={6} lg={6} xl={4}>
+                    <Col md={6} lg={6} xl={4} className='col-contact'>
                         <div className=" single-contact icon1">
                             <div className="c-icon">
                                 <FontAwesomeIcon icon={faHome} />
