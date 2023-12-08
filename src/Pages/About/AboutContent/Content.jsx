@@ -49,7 +49,7 @@ const Content = () => {
   return (
     <section className="about-content-sec">
       <Container className="mb-5">
-  <Row className="justify-content-between">
+  <Row className="justify-content-between promise-content-box">
   <Col  md={6} lg={6} xl={4} xs={12} className="w-50">
       <div className="section-title text-center">
         <img src={partners} alt="" />

@@ -3,6 +3,7 @@ import Appointment from '../../../Pages/Home/Appoinment/Appoinment';
 import Banner from '../Banner/Banner';
 import Detail from '../Detail/Detail';
 import Safety from '../Safety/Safety';
+import ScrollButton from '../../../components/ScrollBtn/ScrollBtn';
 
 const Service = () => {
 
@@ -12,7 +13,8 @@ const Service = () => {
 
     return (
         <>
-          <Banner /> 
+          <Banner />
+          <ScrollButton/> 
           <Detail />
           <Safety />
           <Appointment /> 

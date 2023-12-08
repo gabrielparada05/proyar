@@ -1,6 +1,8 @@
 import carolina from '../Images/carolina.png';
 import gabriel from'../Images/gabriel.png';
 import maria from'../Images/maria.png';
+import cesar from'../Images/cesar.png';
+import flor from'../Images/flor.png';
 
 export const Staff = [
     {
@@ -13,7 +15,7 @@ export const Staff = [
         "id": "002",
         "name": "Cesar Ojeda",
         "status": "Chief Operations Officer",
-        "img": "https://i.ibb.co/yRcJ55b/d2.png"
+        "img": cesar,
     },
     {
         "id": "003",
@@ -31,7 +33,7 @@ export const Staff = [
         "id": "005",
         "name": "Flor Kabour",
         "status": "Site Supervisor Manager",
-        "img": "https://i.ibb.co/yRcJ55b/d2.png",
+        "img": flor,
     },
 
 ]

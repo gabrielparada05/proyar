@@ -4,7 +4,7 @@
    bottom: 28px;
    right: 450px; 
    border: white;
-   color: #2daeec;
+   color: #25d366;
    cursor: pointer;
    z-index: 20;   
    transition: background-color 0.3s, transform 0.3s;
@@ -27,7 +27,7 @@
   color: white;
   border: 3px solid white;
   border-radius: 50%;
-  background-color: #2daeec;
+  background-color: #25d366;
   position: fixed;
   bottom: 50px;
   right: 50px;
@@ -41,7 +41,7 @@ display: flex;
 
  @media screen and (max-width: 640px){
    .scroll-button {
-       display: block
+       display: none
    }
  };
    

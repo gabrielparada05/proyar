@@ -3,6 +3,7 @@ import Appointment from '../../../Pages/Home/Appoinment/Appoinment';
 import Banner from '../Banner/Banner';
 import ContactUs from '../ContactUs/ContactUs';
 import '../ContactUs/ContactUs.css';
+import ScrollButton from '../../../components/ScrollBtn/ScrollBtn'
 
 const Contact = () => {
 
@@ -13,6 +14,7 @@ const Contact = () => {
     return (
         <>
             <Banner />
+            <ScrollButton/>
             <ContactUs />
             <Appointment />   
         </>

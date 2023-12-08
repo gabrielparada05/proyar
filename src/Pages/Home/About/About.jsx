@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Col, Container, Row } from "react-bootstrap";
 import about from "../../../Images/about.jpg";
 import "./About.css";
@@ -37,7 +38,7 @@ const About = () => {
                   workplace.
                 </p>
                 <div className="text-center">
-                  <a href="/about">About Us</a>
+                  <Link to="/about">About Us </Link>
                 </div>
               </div>
               {/* <div className="fun-fact-sec" data-aos="fade-right">

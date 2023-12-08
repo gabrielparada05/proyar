@@ -12,6 +12,20 @@ import slider8 from '../../../Images/slider8.jpg';
 import slider9 from '../../../Images/slider9.png';
 import './Slick.css';
 
+
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, color: "pink" }}
+        onClick={onClick}
+      />
+    );
+  }
+
+
+
 const settings = {
     className: "center",
     centerMode: true,
@@ -21,6 +35,8 @@ const settings = {
     speed: 700,
     autoplay: true,
     autoplaySpeed: 2000,
+    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SamplePrevArrow />,
     responsive: [
         {
           breakpoint: 1024,
@@ -49,6 +65,7 @@ const settings = {
       
       ]
 };
+
 
 const Slick = () => {
     return (

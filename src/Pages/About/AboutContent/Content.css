@@ -1,5 +1,5 @@
 .about-content-sec {
-    padding: 120px 0;
+    padding: 120px 0 60px;
 }
 
 .content-inner {
@@ -23,6 +23,12 @@ li {
 @media only screen and (max-width: 726px){
    p {
     margin: 0 15px 30px 15px;
+   }
+
+   .promise-content-box {
+    flex-direction: column;
+    align-content: center;
+    width: 100% !important;
    }
 }
 @media only screen and (max-width: 426px){
