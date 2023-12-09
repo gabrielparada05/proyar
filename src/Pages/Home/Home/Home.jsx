@@ -9,6 +9,7 @@ import Appointment from '../Appoinment/Appoinment';
 import Banner from '../Banner/Banner';
 import Gallery from '../Gallery/Gallery';
 import Slick from '../Slick/Slick';
+import MyMap from '../../../components/Maps/Maps'
 // import Testimonial from '../Testimonial/Testimonial';
 import ScrollButton from '../../../components/ScrollBtn/ScrollBtn';
 
@@ -18,6 +19,7 @@ const Home = () => {
         <>
            <Banner />
            <ScrollButton/>
+           {/* <MyMap></MyMap> */}
            <Feature />
            <About />
            <Service />

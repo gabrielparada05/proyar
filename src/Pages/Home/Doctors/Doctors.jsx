@@ -21,7 +21,7 @@ const Board = (props) => {
                     <img  src={img} alt="" className="rounded-image staff-img" />
                 </div>
                 <div className="staff-info" data-aos="fade-left">
-                    <h3 className="mb-0"><a href=".#">{name}</a></h3>
+                    <h3 className="mb-0"><a href="mailto: proyar@proyarservices.ca">{name}</a></h3>
                     <span>{status}</span>
                 </div>
                     {/* <div className="staff-social" data-aos="flip-left">
