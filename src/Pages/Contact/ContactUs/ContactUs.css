@@ -1,5 +1,5 @@
 .contact-wrapper {
-    padding: 120px 0;
+    padding: 30px 0;
 }
 
 .single-contact {
@@ -68,6 +68,18 @@
 }
 
 /* 995px */
+
+@media only screen and (max-width: 1200px){
+    .row-contact {
+        justify-content: center;
+    }
+
+    .col-contact {
+        justify-content: center;
+        padding: 0 10px;
+        margin-bottom: 20px;
+       }
+ }
 
 @media only screen and (max-width: 995px){
     .col-contact {

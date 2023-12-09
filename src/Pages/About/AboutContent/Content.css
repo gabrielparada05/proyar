@@ -1,5 +1,5 @@
 .about-content-sec {
-    padding: 120px 0 60px;
+    padding: 60px 0 60px;
 }
 
 .content-inner {
@@ -19,6 +19,17 @@ li {
 
 /* for mobile responsive */
 
+@media only screen and (max-width: 726px){
+    p {
+     margin: 0 15px 30px 15px;
+    }
+ 
+    .promise-content-box {
+     flex-direction: column;
+     align-content: center;
+     width: 100% !important;
+    }
+ }
 
 @media only screen and (max-width: 726px){
    p {
@@ -31,13 +42,27 @@ li {
     width: 100% !important;
    }
 }
+
+
 @media only screen and (max-width: 426px){
     .content-inner {
         margin: 0 !important;
-        width: 100% !important;
     }
 
+    .promise-col {
+        width: 100%!important;
+    }
+
+    .promise-content-box {
+       box-sizing: initial;
+       width: auto!important;
+       }
+    
     .about-content-sec {
         padding: 0px 0;
+    }
+
+    .promise-specific-box {
+        margin-top: 27px;
     }
 }

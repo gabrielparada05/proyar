@@ -8,7 +8,7 @@ const ContactUs = () => {
     return (
         // <section className="contact-wrapper">
             <Container className="contact-wrapper mt-5 mb-5" >
-                <Row>
+                <Row className='row-contact'>
                     <Col md={6} lg={6} xl={4} className='col-contact'>
                         <div className=" single-contact icon1">
                             <div className="c-icon">
@@ -28,7 +28,7 @@ const ContactUs = () => {
                             </div>
                             <div className="c-info text-start">
                                 <h4>Email</h4>
-                                <p>proyar@proyarservices.ca</p>
+                                <a href="mailto: proyar@proyarservices.ca"> proyar@proyarservices.ca</a>
                             
                             </div>
                         </div>
@@ -40,8 +40,14 @@ const ContactUs = () => {
                             </div>
                             <div className="c-info text-start">
                                 <h4>Phone</h4>
-                                <p>(647) 236-0196</p>
-                                <p>(289) 264-3058</p>
+                                <div>
+                                <a href="tel:647-236-0196">(647) 236-0196</a>
+                                </div>
+                                <div>
+                                <a href="tel:289-264-3058">(289) 264-3058</a> 
+                                </div>
+                                
+                              
                             </div>
                         </div>
                     </Col>

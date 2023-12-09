@@ -81,7 +81,7 @@
    
     .container-head {
         flex-wrap: wrap!important;
-        justify-content: center;
+        justify-content: center!important;
     }
 
     .nav-principal {

@@ -50,17 +50,17 @@ const Content = () => {
     <section className="about-content-sec">
       <Container className="mb-5">
   <Row className="justify-content-between promise-content-box">
-  <Col  md={6} lg={6} xl={4} xs={12} className="w-50">
-      <div className="section-title text-center">
+  <Col  md={6} lg={6} xl={4} xs={12} className="w-50 promise-col">
+      <div className="section-title text-center promise-specific-box">
         <img src={partners} alt="" />
         <h3>Our Practice</h3>
         <p className="fs-5 text-justify">{aboutText}</p>
       </div>
     </Col>
 
-    <Col  md={6} lg={6} xl={4} xs={12} className="w-50">
+    <Col  md={6} lg={6} xl={4} xs={12} className="w-50 promise-col">
 
-      <div className="section-title text-center">
+      <div className="section-title text-center promise-specific-box">
       <img src={promise} alt="" />
         <h3 > Our Promise:</h3>
         <p className="fs-5 text-justify">{promiseText}</p>
