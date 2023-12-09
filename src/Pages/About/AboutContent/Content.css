@@ -8,6 +8,10 @@
     font-size: 16px;
 }
 
+.promise-col {
+    width: 50%;
+}
+
 p {
     text-align: justify;
     line-height:inherit;
@@ -22,6 +26,10 @@ li {
 @media only screen and (max-width: 726px){
     p {
      margin: 0 15px 30px 15px;
+    }
+
+    .promise-col {
+        width: 100%;
     }
  
     .promise-content-box {
@@ -39,7 +47,7 @@ li {
    .promise-content-box {
     flex-direction: column;
     align-content: center;
-    width: 100% !important;
+   
    }
 }
 
@@ -49,9 +57,7 @@ li {
         margin: 0 !important;
     }
 
-    .promise-col {
-        width: 100%!important;
-    }
+ 
 
     .promise-content-box {
        box-sizing: initial;
