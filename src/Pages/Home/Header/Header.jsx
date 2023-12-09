@@ -27,7 +27,7 @@ const Header = () => {
                     <Navbar.Brand   as={Link} to="/home" ><img className='logo 'src={logo} alt="logo" /></Navbar.Brand>
                     <Navbar.Toggle   expand="md" aria-controls="responsive-navbar-nav"   onClick={() => setExpanded(!expanded)} />
                     <Navbar.Collapse   id="responsive-navbar-nav">
-                        <Nav   className="ms-auto align-items-center">
+                        <Nav   className="ms-auto align-items-center nav-principal">
                             <Link  to="/home" className='list-item text-decoration-none'>Home</Link>
                             <Link to="/about" className='list-item text-decoration-none'>About</Link>
                             <Link to="/service" className='list-item text-decoration-none'>Service</Link>

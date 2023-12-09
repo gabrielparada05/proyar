@@ -77,6 +77,22 @@
 
   
   /* for mobile responsive i need one more from 857px */
+  @media (max-width: 857px) {
+   
+    .container-head {
+        flex-wrap: wrap!important;
+        justify-content: center;
+    }
+
+    .nav-principal {
+        margin-left: 0!important;
+        justify-content: center;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+    }
+  }
 
 @media (max-width: 992px) {
     /* 2: Navbar */
