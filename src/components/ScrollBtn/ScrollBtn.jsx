@@ -37,7 +37,7 @@ const phoneNumber = '+12892643058';
 //   };
 
   return (
-    <div  className={`scroll-button ${ShowBtn ? "show-scroll" : ""}`} type="button" onClick={handleButtonClick}>
+    <div  className={`whatsaap-button ${ShowBtn ? "show-scroll" : ""}`} type="button" onClick={handleButtonClick}>
     <FontAwesomeIcon icon={faSquareWhatsapp} size="lg" />
     </div>
 

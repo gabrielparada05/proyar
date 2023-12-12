@@ -22,3 +22,21 @@
 
 }
 
+.slick-next {
+    right: -30px;
+    background:transparent !important;
+    border-radius: 7px;
+  }
+  
+  .slick-prev {
+    left: -30px;
+    z-index: 2;
+    background: transparent !important;
+    border-radius: 7px;
+  }
+  
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: rgb(31, 31, 236);
+  }
