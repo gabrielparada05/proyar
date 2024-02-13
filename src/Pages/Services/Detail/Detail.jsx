@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { Col, Container, Row } from "react-bootstrap";
 import { DetailServices } from "../../../Data/DetailsServices.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faHouseLaptop, faIndustry,faPersonThroughWindow,faPersonDigging,faSquareParking,faHouseChimneyMedical,faBuilding,faAngleUp, faRug } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faHouseLaptop, faIndustry,faPersonThroughWindow,faPersonDigging,faSquareParking,faHouseChimneyMedical,faBuilding,faAngleUp, faRug, faSchool } from '@fortawesome/free-solid-svg-icons';
 import "./Detail.css";
 import Services from '../Service/Service.jsx';
 
@@ -46,6 +46,7 @@ const Detail = () => {
     'parking-cleaning': useRef(null),
     'walk-in-and-dental-premises-cleaning': useRef(null),
     'building-cleaning-and-maintenance': useRef(null),
+    'school-cleaning': useRef(null),
   };
 
   const scrollToService = (serviceName) => {
@@ -72,6 +73,7 @@ const Detail = () => {
    <button className="btn btn-primary m-4" onClick={() => scrollToService('parking-cleaning')}><FontAwesomeIcon icon={faSquareParking} /> Parking Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('walk-in-and-dental-premises-cleaning')}><FontAwesomeIcon icon={faHouseChimneyMedical} /> Walk-in Clinic and Dental Premises Cleaning</button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('building-cleaning-and-maintenance')}><FontAwesomeIcon icon={faBuilding} /> Building Cleaning</button>
+   <button className="btn btn-primary m-4" onClick={() => scrollToService('school-cleaning')}><FontAwesomeIcon icon={faSchool} /> School Cleaning</button>
    </div>
 
    <div className='screen-mobile d-flex flex-wrap justify-content-center ms-4 me-4'>
@@ -84,6 +86,7 @@ const Detail = () => {
    <button className="btn btn-primary m-4" onClick={() => scrollToService('parking-cleaning')}><FontAwesomeIcon icon={faSquareParking} /> Parking </button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('walk-in-and-dental-premises-cleaning')}><FontAwesomeIcon icon={faHouseChimneyMedical} /> Walk-in Clinic and Dental Premises </button>
    <button className="btn btn-primary m-4" onClick={() => scrollToService('building-cleaning-and-maintenance')}><FontAwesomeIcon icon={faBuilding} /> Building </button>
+   <button className="btn btn-primary m-4" onClick={() => scrollToService('school-cleaning')}><FontAwesomeIcon icon={faSchool} /> School </button>
    </div>
 
 

@@ -7,6 +7,7 @@ import industrial from '../Images/industrial.png';
 import parking from '../Images/parking.png';
 import building from '../Images/building.png';
 import walkin from '../Images/walkin.png';
+import school from "../Images/school.png"
 
 export const CleaningService = [
     {
@@ -80,6 +81,14 @@ export const CleaningService = [
         "description": " Building cleaning is a comprehensive service designed to maintain the cleanliness, order, and overall hygiene of commercial and residential structures on a day-to-day basis.",
         "link": "building-cleaning-and-maintenance",
         "img": building,
+    },
+    {
+        "id": "0010",
+        "title": "School Cleaning Services",
+        "short_title": "School Cleaning",
+        "description": "Our school cleaning service ensures a safe, healthy learning environment. We cover daily janitorial tasks, disinfection, restroom sanitation, and floor care. With tailored solutions, we support academic success and well-being.",
+        "link": "school-cleaning",
+        "img": school,
     },
     
 ]

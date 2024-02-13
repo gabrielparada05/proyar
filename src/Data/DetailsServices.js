@@ -39,6 +39,8 @@ import patient from "../Images/patient.png";
 import reading from "../Images/reading.png";
 import painting from "../Images/painting.png";
 import elevator from "../Images/elevator.png";
+import classroom from "../Images/classroom.png";
+import outdoor from "../Images/playground.png";
 
 
 
@@ -689,7 +691,63 @@ export const DetailServices = [
                 "img": client,
               }
             ]
-          }
+          }, {
+            "service": "School Cleaning",
+            "id": "010",
+            "overview": "School cleaning involves a systematic approach aimed at maintaining a clean, safe, and conducive learning environment for students and staff. Here's an overview of our typical school cleaning process:",
+            "short_description": "Systematic approach to maintain a clean, safe, and conducive learning environment",
+            "steps": [
+              {
+                "title": "Initial Assessment and Customization",
+                "description": "Conducting an initial assessment of the school premises to understand its layout, size, and specific cleaning requirements. Customizing a cleaning plan tailored to address high-traffic areas, classrooms, restrooms, and other facilities.",
+                "short_description": "Understanding space, size, and specific cleaning requirements. Tailoring a cleaning plan accordingly.",
+                "img": assessment
+              },
+              {
+                "title": "High-Touch Surface Disinfection",
+                "description": "Prioritizing the disinfection of high-touch surfaces such as doorknobs, handrails, desks, and classroom equipment to minimize the spread of germs and ensure a hygienic environment.",
+                "short_description": "Disinfecting high-touch surfaces to minimize germ spread",
+                "img": touching
+              },
+              {
+                "title": "Classroom Cleaning",
+                "description": "Thorough cleaning and sanitization of classroom surfaces, including desks, chairs, whiteboards, and other educational materials. Maintaining cleanliness to support a productive learning environment.",
+                "short_description": "Thorough cleaning and sanitization of classroom surfaces",
+                "img": classroom
+              },
+              {
+                "title": "Restroom Sanitization",
+                "description": "Ensuring the thorough cleaning and disinfection of restroom fixtures, surfaces, and floors. Regular restocking of essential supplies such as soap and paper products.",
+                "short_description": "Thorough cleaning and disinfection of restroom facilities",
+                "img": toilet
+              },
+              {
+                "title": "Floor Care",
+                "description": "Vacuuming carpets, mats, and rugs, as well as mopping hard floors in classrooms, hallways, and common areas. Paying special attention to entrance areas and high-traffic zones.",
+                "short_description": "Vacuuming and mopping floors in classrooms and common areas",
+                "img": floor
+              },
+              {
+                "title": "Outdoor Area Maintenance",
+                "description": "Maintaining cleanliness and orderliness in outdoor areas such as playgrounds, sports fields, and parking lots. Removing litter and debris to ensure a safe environment for students and staff.",
+                "short_description": "Maintaining cleanliness in outdoor areas",
+                "img": outdoor
+              },
+              {
+                "title": "Flexible Scheduling",
+                "description": "Offering flexible cleaning schedules to minimize disruption to school activities, including options for after-hours or weekend cleaning.",
+                "short_description": "Flexible scheduling to minimize disruption",
+                "img": schedule
+              },
+              {
+                "title": "Quality Control",
+                "description": "Regular inspections to maintain cleaning standards and address any concerns promptly. Ensuring a consistently high level of cleanliness throughout the school premises.",
+                "short_description": "Regular inspections to maintain high cleaning standards",
+                "img": qc
+              }
+            ]
+        }
+        
         
         
           
