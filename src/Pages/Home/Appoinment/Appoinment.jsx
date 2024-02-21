@@ -94,7 +94,7 @@ const Appointment = () => {
         <Row>
           <Col sm={12} md={12}>
             <div className="section-title">
-              <h1 className="text-center pb-5 ">Request a Free Estimation</h1>
+              <h1 className="text-center pb-5 pt-5 ">Request a Free Estimation</h1>
               <Col className="text-center">
           <h3>We also speak Spanish </h3>
           <ReactCountryFlag

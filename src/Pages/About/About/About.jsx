@@ -19,7 +19,7 @@ const About = () => {
               {/* <AboutService />
          
             <Achivement /> */}
-           <Team />
+           {/* <Team /> */}
           <Appointment />
         </>
       );
