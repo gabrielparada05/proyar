@@ -61,7 +61,7 @@ const Footer = () => {
       </Container>
       <div className="footer-copy-right text-center text-white">
         <p className="mb-0 text-center">
-          &copy; 2023 - <span className="developer">Gabriel Parada</span> | All
+          &copy; 2023 - <span className="developer">GPM</span> | All
           Rights Reserved
         </p>
       </div>

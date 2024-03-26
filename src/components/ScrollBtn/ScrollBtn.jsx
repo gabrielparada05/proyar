@@ -22,7 +22,7 @@ const ScrollButton = () => {
     };
   }, []);
 
-const phoneNumber = '+12892643058'; 
+const phoneNumber = '+16472360196'; 
   const handleButtonClick = () => {
     window.scrollTo(0, 0);
     const whatsappURL = `whatsapp://send?phone=${phoneNumber}`;
