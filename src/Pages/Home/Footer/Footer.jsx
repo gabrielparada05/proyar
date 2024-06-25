@@ -44,11 +44,11 @@ const Footer = () => {
                     Bradford, ON
                   </address>
                 </div>
-                <div>
+                {/* <div>
                   <a className="footer-link" href="tel:289-264-3058">
                     <FontAwesomeIcon icon={faPhone} /> 289-264-3058
                   </a>
-                </div>
+                </div> */}
                 <div>
                   <a className="footer-link" href="mailto: proyar@proyarservices.ca">
                     <FontAwesomeIcon icon={faEnvelope} /> Send Email
