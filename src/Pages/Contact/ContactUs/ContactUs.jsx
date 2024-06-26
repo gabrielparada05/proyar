@@ -41,7 +41,7 @@ const ContactUs = () => {
                             <div className="c-info text-start">
                                 <h4>Phone</h4>
                                 <div>
-                                <a href="tel:647-236-0196">(647) 236-0196</a>
+                                <a href="tel:647-524-8817">(647) 524-8817</a>
                                 </div>
                                 <div>
                                 {/* <a href="tel:289-264-3058">(289) 264-3058</a>  */}
